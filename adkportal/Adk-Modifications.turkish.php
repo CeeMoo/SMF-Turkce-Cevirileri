@@ -17,54 +17,54 @@
 
 /* Set the admin sections*/     /* Main */
 $txt['adkmod_adkportal'] = 'Adk Portal';
-$txt['adkmod_news'] = 'News';
-$txt['adkmod_settings'] = 'Settings';
-$txt['adkmod_icons'] = 'Icons';
-$txt['adkmod_stand'] = 'Standalone settings';
-$txt['adkmod_smf_personal'] = 'Adk Portal help';
+$txt['adkmod_news'] = 'Haberler';
+$txt['adkmod_settings'] = 'Ayarlar';
+$txt['adkmod_icons'] = 'Simgeler';
+$txt['adkmod_stand'] = 'Baðýmsýz Ayarlarý';
+$txt['adkmod_smf_personal'] = 'Adk Portal yardým';
 
 //Admin Blocklar
 $txt['adkmod_block_templates'] = 'Templates';
-$txt['adkmod_block_manage'] = 'Administrate Blocklar';
+$txt['adkmod_block_manage'] = 'Blocklarý yönetin';
 $txt['adkmod_block_title'] = 'Blocklar';
-$txt['adkmod_block_settings'] = 'Configure Blocklar';
+$txt['adkmod_block_settings'] = 'Blocklarý yapýlandýr';
 $txt['adkmod_block_add'] = 'Block ekle';
-$txt['adkmod_block_add_news'] = 'Add new';
+$txt['adkmod_block_add_news'] = 'Yeni Ekle';
 $txt['adkmod_block_upload'] = 'Upload block';
 $txt['adkmod_block_download'] = 'Download Blocklar';
 
 //Admin Modules
-$txt['adkmod_modules_manage'] = 'Administrate modules';
-$txt['adkmod_modules_intro'] = 'Index';
-$txt['adkmod_modules_pages'] = 'Pages';
-$txt['adkmod_modules_contacto'] = 'Contac us';
-$txt['adkmod_modules_images'] = 'Advenzed images';
-$txt['adkmod_modules_manage_images'] = 'Administrate images';
+$txt['adkmod_modules_manage'] = 'Modulleri yönet';
+$txt['adkmod_modules_intro'] = 'indeks';
+$txt['adkmod_modules_pages'] = 'Sayfalar';
+$txt['adkmod_modules_contacto'] = 'Bize Ulaþýn';
+$txt['adkmod_modules_images'] = 'Geliþmiþ görüntü';
+$txt['adkmod_modules_manage_images'] = 'Resimleri Yönetin';
 
 //Admin Downloads
-$txt['adkmod_eds_manage'] = 'Administrate downloads';
-$txt['adkmod_eds_settings'] = 'Options';
-$txt['adkmod_eds_add'] = 'Add category';
-$txt['adkmod_eds_categories'] = 'Categories';
-$txt['adkmod_eds_approve'] = 'Approve downloads';
+$txt['adkmod_eds_manage'] = 'Downloadlarý Yönetin';
+$txt['adkmod_eds_settings'] = 'Seçenekler';
+$txt['adkmod_eds_add'] = 'Kategori Ekle';
+$txt['adkmod_eds_categories'] = 'Kategoriler';
+$txt['adkmod_eds_approve'] = 'Downloadlarý Onayla';
 
 //Admin Seo
-$txt['adkmod_seo_manage'] = 'Administrate Seo';
-$txt['adkmod_seo_htaccess'] = 'Create Htaccess';
-$txt['adkmod_seo_robots'] = 'Create Robots.txt';
+$txt['adkmod_seo_manage'] = 'Seo Yöneitimi';
+$txt['adkmod_seo_htaccess'] = 'Htaccess Oluþtur';
+$txt['adkmod_seo_robots'] = 'Robots.txt Oluþtur';
 
 //Permissions
 $txt['permissiongroup_adkportal'] = 'Adk Portal';
 $txt['permissiongroup_simple_adkportal'] = 'Adk Portal';
-$txt['permissionname_adk_portal'] = 'Administrate Adkportal';
-$txt['permissionhelp_adk_portal'] = 'Allows the user to manage adk portal and its modules';
-$txt['permissiongroup_adkdownloads'] = 'Downloads system (Adk portal)';
-$txt['permissiongroup_simple_adkdownloads'] = 'Downloads system (Adk Portal)';
-$txt['cannot_adk_downloads_add'] = 'You do not have permission to add downloads.';
-$txt['permissionname_adk_downloads_autoapprove'] = 'Automatically approve your downloads';
+$txt['permissionname_adk_portal'] = 'Adkportal Yönetin';
+$txt['permissionhelp_adk_portal'] = 'ADK portal ve modülleri yönetmek için kullanýcýya izin verir';
+$txt['permissiongroup_adkdownloads'] = 'Downloads sistemi (Adk portal)';
+$txt['permissiongroup_simple_adkdownloads'] = 'Downloads sistemi (Adk Portal)';
+$txt['cannot_adk_downloads_add'] = 'Sizin downloads eklemek için izniniz yok.';
+$txt['permissionname_adk_downloads_autoapprove'] = 'Otomatik downloads onaylamak';
 $txt['permissionhelp_adk_downloads_autoapprove'] = 'The user downloads do not need to be seen by an administrator.';
-$txt['permissionname_adk_downloads_manage'] = 'Administrate downloads system';
-$txt['permissionhelp_adk_downloads_manage'] = 'Allows the user to manage the download system.';
+$txt['permissionname_adk_downloads_manage'] = 'Downloads sisteminin yönetimi';
+$txt['permissionhelp_adk_downloads_manage'] = 'Download sistemi yönetmek için izin verir.';
 $txt['cannot_adk_downloads_manage'] = 'You do not have permission to manage the download center.';
 $txt['cannot_adk_portal'] = 'You do not have permission to manage Adk Portal.';;
 
