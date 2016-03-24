@@ -24,7 +24,7 @@ $txt['adkmod_stand'] = 'Baðýmsýz Ayarlarý';
 $txt['adkmod_smf_personal'] = 'Adk Portal yardým';
 
 //Admin Blocklar
-$txt['adkmod_block_templates'] = 'Templates';
+$txt['adkmod_block_templates'] = 'Þablonlar';
 $txt['adkmod_block_manage'] = 'Blocklarý yönetin';
 $txt['adkmod_block_title'] = 'Blocklar';
 $txt['adkmod_block_settings'] = 'Blocklarý yapýlandýr';
@@ -34,7 +34,7 @@ $txt['adkmod_block_upload'] = 'Upload block';
 $txt['adkmod_block_download'] = 'Download Blocklar';
 
 //Admin Modules
-$txt['adkmod_modules_manage'] = 'Modulleri yönet';
+$txt['adkmod_modules_manage'] = 'Modulleri yönetin';
 $txt['adkmod_modules_intro'] = 'indeks';
 $txt['adkmod_modules_pages'] = 'Sayfalar';
 $txt['adkmod_modules_contacto'] = 'Bize Ulaþýn';
@@ -65,56 +65,56 @@ $txt['permissionname_adk_downloads_autoapprove'] = 'Otomatik downloads onaylamak
 $txt['permissionhelp_adk_downloads_autoapprove'] = 'The user downloads do not need to be seen by an administrator.';
 $txt['permissionname_adk_downloads_manage'] = 'Downloads sisteminin yönetimi';
 $txt['permissionhelp_adk_downloads_manage'] = 'Download sistemi yönetmek için izin verir.';
-$txt['cannot_adk_downloads_manage'] = 'You do not have permission to manage the download center.';
-$txt['cannot_adk_portal'] = 'You do not have permission to manage Adk Portal.';;
+$txt['cannot_adk_downloads_manage'] = 'Download merkezine ulaþmak izniniz yok.';
+$txt['cannot_adk_portal'] = 'Adk Portal Yönetmek için izniniz yok.';;
 
 //Set the portal txt :P
 $txt['adkmod_portal'] = 'Portal';
 
 //Set some strings
-$txt['adkmod_expand'] = 'Expand column';
-$txt['adkmod_collapse'] = 'Collapse column';
-$txt['adk_disable_notifications_profile'] = 'Disable notifications on pages module';
+$txt['adkmod_expand'] = 'Sütunu Geniþlet';
+$txt['adkmod_collapse'] = 'Sütunu Daralt';
+$txt['adk_disable_notifications_profile'] = 'Sayfalar modülünde bildirimleri devre dýþý býrak ';
 
 //Buttons
 $txt['adkmod_downloads'] = 'Downloads';
 $txt['adkmod_forum'] = 'Forum';
-$txt['adkmod_pages'] = 'Pages';
-$txt['adkmod_pages_unread'] = 'Unread comments';
+$txt['adkmod_pages'] = 'Sayfalar';
+$txt['adkmod_pages_unread'] = 'Okunmamýþ Yorumlar';
 
 //Javascript Blocklar
-$txt['adkmod_shoutbox_sending'] = 'Send';
-$txt['adkmod_shoutbox_all_field'] = 'Please complete all fields';
-$txt['adkmod_shoutbox_shout_it'] = 'Send!!';
+$txt['adkmod_shoutbox_sending'] = 'Gönder';
+$txt['adkmod_shoutbox_all_field'] = 'Lütfen tüm alanlarý doldurun';
+$txt['adkmod_shoutbox_shout_it'] = 'Gönder!!';
 
 //Blocklar
-$txt['adkmod_block_no_post_see'] = 'No messages you may see';
-$txt['adkmod_block_no_read'] = 'Messages unread';
-$txt['adkmod_block_alls'] = 'All';
-$txt['adkmod_block_last'] = 'Last Visit';
-$txt['adkmod_block_new_replies'] = 'Only Replies';
-$txt['adkmod_block_hi'] = 'Hello';
-$txt['adkmod_block_guest'] = 'Guest';
+$txt['adkmod_block_no_post_see'] = 'Görebileceðiniz Mesaj yok';
+$txt['adkmod_block_no_read'] = 'Okunmamýþ mesajlar';
+$txt['adkmod_block_alls'] = 'Tüm';
+$txt['adkmod_block_last'] = 'Son ziyaret';
+$txt['adkmod_block_new_replies'] = 'Sadece Cevaplar';
+$txt['adkmod_block_hi'] = 'Merhaba';
+$txt['adkmod_block_guest'] = 'Ziyaretçi';
 $txt['adkmod_block_none_images'] = 'No images available';
-$txt['adkmod_block_who_title'] = 'Who is online?';
-$txt['adkmod_block_remove_message'] = 'You sure do this? This operation can not return.';
-$txt['adkmod_block_borrar'] = 'Delete';
-$txt['adkmod_block_editar'] = 'Edit';
-$txt['adkmod_block_added_portal'] = 'Added to portal';
-$txt['adkmod_block_posts'] = 'Message';
-$txt['adkmod_block_last_updated'] = 'Last updated';
-$txt['adkmod_block_shout_now_allowed'] = 'You do not have permission to view the shoutbox.';
-$txt['adkmod_block_add_this_topic'] = 'Add to portal';
-$txt['adkmod_block_remove_this_topic'] = 'Delete of portal';
-$txt['adkmod_block_open_smileys'] = 'Open smileys';
+$txt['adkmod_block_who_title'] = 'Kimler çevrimiçi?';
+$txt['adkmod_block_remove_message'] = 'Bundan emin misin? Bu iþlem geri alýnamaz.';
+$txt['adkmod_block_borrar'] = 'Sil';
+$txt['adkmod_block_editar'] = 'Düzenle';
+$txt['adkmod_block_added_portal'] = 'Portala eklendi';
+$txt['adkmod_block_posts'] = 'Mesaj';
+$txt['adkmod_block_last_updated'] = 'Son Güncelleme';
+$txt['adkmod_block_shout_now_allowed'] = 'shoutbox görüntülemek için izniniz yok.';
+$txt['adkmod_block_add_this_topic'] = 'Portala ekle';
+$txt['adkmod_block_remove_this_topic'] = 'Portaldan Sil';
+$txt['adkmod_block_open_smileys'] = 'Smileys Aç';
 $txt['adkmod_block_karma'] = 'Karma';
 $txt['adkmod_block_reminder'] = 'Add a reminder for not forget that he wished to :)';
-$txt['adkmod_block_readmore'] = 'Read more';
-$txt['adkmod_block_notext'] = '<div style="text-align: center; margin-bottom: 5px;">No messages in the Shoutbox<br />Be the first to comment!</div>';
-$txt['adkmod_block_nopost'] = '<div style="text-align: center;"><strong>No messages in the Shoutbox</strong>
-<br /><br /><strong>[</strong> <a href="'.$scripturl.'/">Go to index</a> <strong>]</strong> 
+$txt['adkmod_block_readmore'] = 'Daha Fazlasý';
+$txt['adkmod_block_notext'] = '<div style="text-align: center; margin-bottom: 5px;">Shoutboxda ileti yok<br />Ýlk iletiyi siz gönderin!</div>';
+$txt['adkmod_block_nopost'] = '<div style="text-align: center;"><strong>Shoutboxda ileti yok</strong>
+<br /><br /><strong>[</strong> <a href="'.$scripturl.'/">indeks git</a> <strong>]</strong> 
 </div>';
-$txt['activate_ssi'] = 'Please include SSI from admin section';
+$txt['activate_ssi'] = 'Lütfen yönetici bölümünden SSI ekleyiniz';
 
 //Who's integration
 $txt['who_adk_portal'] = 'Viewing portal site.';
@@ -134,7 +134,7 @@ $txt['who_adk_page'] = 'Viewing a site page';
 $txt['who_adk_shoutbox'] = 'Viewing Shoutbox';
 $txt['who_adk_index_pages'] = 'Viewing Page Index';
 
-$txt['adkmod_Adkportaldonate'] = '<div style="text-align:center;" class="smalltext"><a href="http://www.smfpersonal.net/index.php?action=about;sa=contribute" target="blank">Contribute to the project</a></div>';
+$txt['adkmod_Adkportaldonate'] = '<div style="text-align:center;" class="smalltext"><a href="http://www.smfpersonal.net/index.php?action=about;sa=contribute" target="blank">projeye katkýda bulun</a></div>';
 
 //Fatal errors
 $txt['adkfatal_wrong_icon_id'] = 'The icon you are trying to delete does not exist.';
