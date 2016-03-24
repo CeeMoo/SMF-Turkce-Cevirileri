@@ -13,14 +13,14 @@
  *tükçe çeviri: http://smf.konusal.com/
  */
 
-$txt['adkmodules_shouts'] = 'Messages Shoutbox';
-$txt['adkmodules_autor'] = 'Author';
-$txt['adkmodules_date'] = 'Date';
+$txt['adkmodules_shouts'] = 'Shoutbox Mesajlar';
+$txt['adkmodules_autor'] = 'Yazar';
+$txt['adkmodules_date'] = 'Tarih';
 $txt['adkmodules_credits'] = 'Credits - Adk portal by SMF Personal';
 $txt['adkmodules_email'] = 'E-mail';
-$txt['adkmodules_name'] = 'Name';
-$txt['adkmodules_remove_message'] = 'Do you want to delete this story? This operation can not return';
-$txt['adkmodules_credits_01'] = 'Short description';
+$txt['adkmodules_name'] = 'Ýsim';
+$txt['adkmodules_remove_message'] = 'Bu Ýletiyi silmek istiyor musunuz? Bu iþlem geri Alýnamaz';
+$txt['adkmodules_credits_01'] = 'Kýsa Açýklama';
 $txt['adkmodules_credits_02'] = '<b>Adk portal</b> is a Portal integrated to SMF, with multiple extensions and features.';
 $txt['adkmodules_credits_03'] = 'The portal is aimed at simple and intuitive to the Administrator.';
 $txt['adkmodules_credits_04'] = 'It has all the characteristics of portal, in addition to having a great set of downloads, system of internal pages, etc.';
@@ -32,16 +32,16 @@ $txt['adkmodules_credits_09'] = 'To <b>Testers</b> they are restless for errors.
 $txt['adkmodules_credits_10'] = 'To <b>Friends</b> they give us their unconditional support.';
 $txt['adkmodules_credits_11'] = 'Staff';
 $txt['adkmodules_credits_12'] = 'Special Thanks';
-$txt['adkmodules_form_send_content'] = 'Message Content';
-$txt['adkmodules_form_sendeded'] = 'Message sent. Thanks';
-$txt['adkmodules_form_send_all'] = 'Send data';
+$txt['adkmodules_form_send_content'] = 'Mesaj Ýçeriði';
+$txt['adkmodules_form_sendeded'] = 'Mesaj gönderildi. teþekkürler';
+$txt['adkmodules_form_send_all'] = 'veri gönderme';
 $txt['adkmodules_form_select_admin'] = 'Administrator';
-$txt['adkmodules_form_contact'] = 'Contact form';
-$txt['adkmodules_index_pages'] = 'Page Index';
-$txt['adkmodules_add_comment'] = 'Add comment';
-$txt['adkmodules_comments'] = 'Comments';
-$txt['adkmodules_reply'] = 'Reply';
+$txt['adkmodules_form_contact'] = 'Ýletiþim Formu';
+$txt['adkmodules_index_pages'] = 'Sayfa Ýndeksi';
+$txt['adkmodules_add_comment'] = 'Yorum ekle';
+$txt['adkmodules_comments'] = 'Yorumlar';
+$txt['adkmodules_reply'] = 'Cevapla';
 $txt['adkmodules_clean_unread'] = 'Clean unread comments';
-$txt['adkmodules_no_unread'] = 'No unread comments';
+$txt['adkmodules_no_unread'] = 'Okunmamýþ Yorumlar';
 
 ?>
