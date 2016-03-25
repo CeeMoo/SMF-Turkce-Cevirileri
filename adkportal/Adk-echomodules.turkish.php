@@ -13,7 +13,7 @@
  *tükçe çeviri: http://smf.konusal.com/
  */
 
-$txt['adkmodules_shouts'] = 'Shoutbox Mesajlar';
+$txt['adkmodules_shouts'] = 'Sohbet Kutusu Mesajlar';
 $txt['adkmodules_autor'] = 'Yazar';
 $txt['adkmodules_date'] = 'Tarih';
 $txt['adkmodules_credits'] = 'Credits - Adk portal by SMF Personal';

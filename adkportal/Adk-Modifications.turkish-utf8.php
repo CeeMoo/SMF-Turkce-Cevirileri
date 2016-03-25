@@ -110,8 +110,8 @@ $txt['adkmod_block_open_smileys'] = 'Smileys Aç';
 $txt['adkmod_block_karma'] = 'Karma';
 $txt['adkmod_block_reminder'] = 'Add a reminder for not forget that he wished to :)';
 $txt['adkmod_block_readmore'] = 'Daha Fazlası';
-$txt['adkmod_block_notext'] = '<div style="text-align: center; margin-bottom: 5px;">Shoutboxda ileti yok<br />İlk iletiyi siz gönderin!</div>';
-$txt['adkmod_block_nopost'] = '<div style="text-align: center;"><strong>Shoutboxda ileti yok</strong>
+$txt['adkmod_block_notext'] = '<div style="text-align: center; margin-bottom: 5px;">Sohbet Kutusunda ileti yok<br />İlk iletiyi siz gönderin!</div>';
+$txt['adkmod_block_nopost'] = '<div style="text-align: center;"><strong>Sohbet Kutusunda ileti yok</strong>
 <br /><br /><strong>[</strong> <a href="'.$scripturl.'/">indeks git</a> <strong>]</strong> 
 </div>';
 $txt['activate_ssi'] = 'Lütfen yönetici bölümünden SSI ekleyiniz';
@@ -131,7 +131,7 @@ $txt['who_adk_down_add'] = 'Added a new download';
 $txt['who_adk_down_edit'] = 'Editing a new download';
 $txt['who_adk_down_system'] = 'Viewing the downloads section';
 $txt['who_adk_page'] = 'Viewing a site page';
-$txt['who_adk_shoutbox'] = 'Viewing Shoutbox';
+$txt['who_adk_shoutbox'] = 'Viewing Sohbet Kutusu';
 $txt['who_adk_index_pages'] = 'Viewing Page Index';
 
 $txt['adkmod_Adkportaldonate'] = '<div style="text-align:center;" class="smalltext"><a href="http://www.smfpersonal.net/index.php?action=about;sa=contribute" target="blank">projeye katkıda bulun</a></div>';
