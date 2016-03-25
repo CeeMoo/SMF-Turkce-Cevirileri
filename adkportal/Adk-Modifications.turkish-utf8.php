@@ -146,28 +146,28 @@ $txt['adkfatal_form_error'] = 'There was an error in the form. Please complete a
 $txt['adkfatal_empty_title'] = 'There was an error. The title field is required.';
 $txt['adkfatal_empty_body'] = 'There was an error. The message body is required.';
 $txt['adkfatal_adk_not_page_id'] = 'The page you are trying to view does not exist.';
-$txt['adkfatal_require_url'] = 'Please insert a URL';
-$txt['adkfatal_require_image'] = 'There was an error. You need to place an image URL or upload from your PC.';
-$txt['adkfatal_this_module_doesnt_exist'] = 'This module is not enabled.';
-$txt['adkfatal_require_catid'] = 'The category you are trying to view does not exist.';
-$txt['adkfatal_empty_id_profile'] = 'The profile you are trying to view does not exist.';
-$txt['adkfatal_user_not_have_nadanose'] = 'This user has no downloads.';
-$txt['adkfatal_please_select_cat'] = 'You are trying to add a download from the wrong place.';
-$txt['adkfatal_this_category_not_exist'] = 'This category does not exist.';
-$txt['adkfatal_not_writable_dir'] = 'The directory does not have permissions. Please contact an administrator.';
-$txt['adkfatal_please_add_a_title'] = 'You need to add a title to download.';
-$txt['adkfatal_please_add_a_body'] = 'You need to complete the description field.';
-$txt['adkfatal_empty_attach'] = 'You need to add files to download.';
-$txt['adkfatal_require_id_file'] = 'The download you are trying to edit does not exist.';
+$txt['adkfatal_require_url'] = 'Lütfen URL ekleyin';
+$txt['adkfatal_require_image'] = 'Bir resim veya url eklemeniz gerekicek.';
+$txt['adkfatal_this_module_doesnt_exist'] = 'Bu modül kapalı.';
+$txt['adkfatal_require_catid'] = 'Mevcut olmayan kategoriye bakamazsınız.';
+$txt['adkfatal_empty_id_profile'] = 'Mevcut olmayan profile bakamazsınız.';
+$txt['adkfatal_user_not_have_nadanose'] = 'Malesef bu kullanıcıya dosya indirme izni yok.';
+$txt['adkfatal_please_select_cat'] = 'Sanırsam yanlış yerden dosya eklemeye çalışıyorsunuz.';
+$txt['adkfatal_this_category_not_exist'] = 'Böyle bir kategori bulunmuyor.';
+$txt['adkfatal_not_writable_dir'] = 'Sen ne yapıyor.Bu izinler için yöneticiye ulaş.';
+$txt['adkfatal_please_add_a_title'] = 'Dosyana başlık eklemelisin.';
+$txt['adkfatal_please_add_a_body'] = 'Bilgi alanını doldur.';
+$txt['adkfatal_empty_attach'] = 'Dosya eklerseniz indirirsiniz.';
+$txt['adkfatal_require_id_file'] = 'Varolmayan dosyayı editliyemezsiniz.';
 $txt['adkfatal_not_permission'] = 'You do not have permission to perform this action.';
-$txt['adkfatal_big_size'] = 'One of the attachment exceeds the maximum size.';
-$txt['adkfatal_this_download_not_exist'] = 'The download you are trying to view does not exist.';
-$txt['adkfatal_this_download_not_approved'] = 'The download you are trying to view is not approved';
-$txt['adkfatal_invalid_picture'] = 'Invalid image.';
-$txt['adkfatal_cannot_view'] = 'You do not have permission to view this section';
-$txt['adkfatal_cat_title_false'] = 'The new categories require a title.';
-$txt['adkfatal_invalid_id_category'] = 'The category you are trying to access does not exist.';
-$txt['adkfatal_weight_height_false'] = 'The maximum width allowed for the icon is 128px';
+$txt['adkfatal_big_size'] = 'Eklemeye çalıştığınız dosya boyut olarak kurtarmıyor.';
+$txt['adkfatal_this_download_not_exist'] = 'Böyle bir dosya bulunmamaktadır.';
+$txt['adkfatal_this_download_not_approved'] = 'Bu dosya onaylanmamış';
+$txt['adkfatal_require_url'] = 'Yanlış resim';
+$txt['adkfatal_cannot_view'] = 'Bu bölüm için yetkiniz kurtarmıyor';
+$txt['adkfatal_cat_title_false'] = 'Yeni kategori isim giriniz.';
+$txt['adkfatal_invalid_id_category'] = 'Malesef böyle bir kategori bulunmuyor.';
+$txt['adkfatal_weight_height_false'] = 'icon için en yüksek en 128px dir';
 $txt['adkfatal_top_karma_error'] = 'There was an error. You need to put the number of users to display in the block.';
 $txt['adkfatal_auto_news_error'] = 'There was an error. You need to select the boards to display in the block.';
 $txt['adkfatal_please_add_a_body_message'] = 'There was an error. The message body is empty.';
@@ -175,17 +175,17 @@ $txt['adkfatal_insert_multi_id'] = 'There was an error. You need to select at le
 $txt['adkfatal_empty_block_id'] = 'There was an error. The block you are trying to view does not exist.';
 $txt['adkfatal_empty_news_id'] = 'There was an error. The new you are trying to view does not exist.';
 $txt['adkfatal_lang_error_not_block'] = 'You are not upload any block.';
-$txt['adkfatal_extension'] = 'This file not is PHP';
-$txt['adkfatal_invalid_type'] = 'This action is invalid';
-$txt['adkfatal_empty_place'] = 'You need a place to insert the template';
+$txt['adkfatal_extension'] = 'php olduğuna eminmisin?';
+$txt['adkfatal_invalid_type'] = 'Geçersiz işlem';
+$txt['adkfatal_empty_place'] = 'Şablon için alan seçmen gerekir.';
 $txt['adkfatal_template_invalid_id'] = 'There was an error. The template you are trying to view does not exist.';
 $txt['adkfatal_exists_this_template'] = 'The template you are trying to create already exists';
 $txt['adkfatal_you_can_not_modify_portal_template'] = 'You may not remove or disable the portal template';
 $txt['adkfatal_smf_p_Blocklar_not'] = 'You are trying to download a block that does not exist.';
 $txt['adkfatal_enable_blog_please'] = 'You can enable Adk blog';
 $txt['adkfatal_captcha_invalid'] = 'Visual verification failed';
-$txt['adkfatal_module_not_enable'] = 'This module is not enabled.';
-$txt['adkfatal_guest_not_add'] = 'Guests can not add new downloads.';
+$txt['adkfatal_module_not_enable'] = 'Bu modül kapalı.';
+$txt['adkfatal_guest_not_add'] = 'Ziyaretçi dosya ekliyemez.';
 $txt['adkfatal_not_zero_data'] = 'Se ha producido un error al guardar los datos.<br />Los siguientes campos no pueden estar vacios o con valor cero (0)<br />
 <strong>Amount of News per Page<br />
 Number of topics to display<br />
@@ -193,6 +193,6 @@ Limit of topics to showing in the block<br />
 User Limit in En çok Yazanlar</strong>';
 
 // eds
-$txt['adkeds_nocategory'] = 'No categories created';
+$txt['adkeds_nocategory'] = 'Böyle bir kategori oluşturulmadı.';
 
 ?>
