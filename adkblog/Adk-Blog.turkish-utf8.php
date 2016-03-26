@@ -1,0 +1,85 @@
+<?php
+/*tükçe çeviri: http://smf.konusal.com/*/
+$txt['adk_blog_user_not_allowed'] = 'User not allowed to take blog';
+$txt['blog_this_user_not_post_test'] = 'Henüz bloglar bulunmamaktadır (yet).';
+$txt['adk_first_blogs'] = 'Bloglar';
+$txt['adk_anew_coment'] = 'Yeni Yorum';
+$txt['blog_enable_sendpm'] = 'Send MP when you add a comment';
+$txt['adk_download_now_blog'] = 'Güncel Sürüm İndir';
+$txt['blog_news_desde_smf'] = 'Smf Personal Haberler';
+$txt['blog_su_version'] = 'Sizin sürümnünüz';
+$txt['blog_version_actual'] = 'Mevcut sürüm';
+$txt['blog_first_d'] = 'smfpersonal en son haber görebilirsiniz';
+$txt['blog_seconds_d'] = 'Seçeneklerinizi değiştirin';
+$txt['blog_enable_admin'] = 'Bloglar Etkinleştirin?';
+$txt['blog_enable_comments'] = 'Yorum Etkinleştirin?';
+$txt['blog_groups_allowed_toview'] = 'Blogları görüntülemek için Grup izinleri?';
+$txt['blog_groups_allowed_totenerblog'] = 'Kendi Bloglarını oluşturabilecek Grublar?';
+$txt['blog_groups_allowed_tocomment'] = 'Yorum yapmaya izinli Gruplar?';
+$txt['blog_guests'] = 'Ziyaretçiler';
+$txt['blog_regular_users'] = 'Normal Üyeler';
+$txt['blog_yes'] = 'Evet';
+$txt['blog_no'] = 'Hayır';
+$txt['blog_enable_bbc'] = 'Yorumlarda BBCode kullan';
+$txt['blog_not_enable'] = 'Blog modülü aktif değil';
+$txt['blog_this_user_not_exists'] = 'Bu Kullanıcı mevcut değil';
+$txt['blog_not_permission'] = 'Bu bölümü görüntülemek için izniniz yok veya bu işlemi gerçekleştirmezseniz';
+$txt['blog_add_category'] = 'Kategori Ekle';
+$txt['blog_general_title'] = 'Başlık';
+$txt['blog_general_position'] = 'pozisyon';
+$txt['blog_mycategories']  = 'Kategorilerim';
+$txt['blog_general_edit'] = 'Düzenle';
+$txt['blog_general_delete'] = 'Sil';
+$txt['blog_wrong_id'] = 'ID yanlış';
+$txt['blog_delete_categorie'] = 'Kategori sil';
+$txt['blog_totaltemasycom'] = 'Konular ve yorumların toplamı';
+$txt['blog_qedesea'] = 'Ne istiyorsun?';
+$txt['blog_eliminar_pyt'] = 'Bu kategorideki yayınları ve yorumları kaldır';
+$txt['blog_mover_a'] = 'Mesajları ve yorumları taşı:';
+$txt['blog_de'] = '%1$s\'s Blog'; //Note, for example in English:    .... % Adk Blog replace %1$s with the user
+$txt['blog_edit_categorie'] = 'Kategori Düzenle';
+$txt['blog_edit_about_me'] = 'İçeriği değiştirme:Hakkımda';
+$txt['blog_another_about_me'] = 'Hakkımda';
+$txt['blog_add_entrada'] = 'Yeni yazı ekle';
+$txt['blog_add_comment'] = 'Yorum Ekle';
+$txt['blog_g_category'] = 'Kategori';
+$txt['blog_g_categories'] = 'Kategoriler';
+$txt['blog_icon'] = 'Simge';
+$txt['blog_first_you_create_category'] = 'İlk olarak, kategoriler oluşturmanız gerekir';
+$txt['blog_limit_perpage'] = 'Anasayfadaki konuların sınırı?';
+$txt['blog_this_user_not_post'] = 'Bu üyenin henüz konusu yok';
+$txt['blog_by'] = 'by';
+$txt['blog_in'] = 'in';
+$txt['blog_pages_2'] = 'Sayfa';
+$txt['blog_comentar'] = 'Bir yorum Yaz';
+$txt['blog_mensajes'] = 'Mesajlar';
+$txt['blog_entradas_en_blog'] = 'Blog Konuları';
+$txt['blog_g_admin'] = 'Yönetim';
+$txt['blog_view_my_profile'] = 'Profil bilgileri';
+$txt['blog_simple_edit'] = 'Düzenle';
+$txt['blog_this_group_not_allowed'] = 'Bu bloğu yönetmek için gerekli izinlere sahip değilsiniz';
+$txt['blog_require_title'] = 'Başlık gereklidir';
+$txt['blog_require_body'] = 'İleti gövdesi gereklidir';
+
+/*V3.0*/
+$txt['blog_no_hay_entradas'] = 'Bu modül aktif değil';
+$txt['blog_lkist_categoris'] = 'Kategori listeniz.';
+$txt['blog_likeit'] = 'Beğenin';
+$txt['blog_like_thanks'] = 'Gönderi için teşekkürler :)';
+$txt['blog_like_thanks2'] = 'Bu konuyu beğendiyseniz';
+$txt['blog_notifis_asd'] = '%1$s Konunuzu Beğendi';
+$txt['blog_notofis_2'] = '%1$s Yorum yapıdı konunuza ';
+$txt['blog_not'] = 'Bildirimler';
+$txt['blog_not_desc'] = 'Blogunuzdan son bildirimler.';
+$txt['bloig_mayor_menor'] = 'En son';
+$txt['blog_gusta_personas'] = '%1$s kişi bu konuyu beğendi';
+$txt['blog_gusta_persona'] = '%1$s kişi bu konuyu beğendi';
+$txt['blog_autor'] = 'Yazar';
+$txt['blog_title_titasd'] = 'Başlık';
+$txt['blog_fecha'] = 'Tarih';
+$txt['asdasdasdasdasd'] = 'Son Konular';
+$txt['blog_vertema'] = 'Bu konu ile ilgili Yorum yaz';
+$txt['blog_lalalalal'] = 'Son Aktif bloglar';
+
+
+?>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+  <name>Adk Portal-turkish</name>
+  <id>snrj:Portal-turkish</id>
+  <type>modification</type>
+  <version>1.0</version>
+	<install for="2.0 - 2.1.99, 2.1 Beta 2, 2.1 Beta 3">
+		<readme parsebbc="true">readme.txt</readme>
+		<require-file name="Adk-Admin.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Admin.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-AdminBlocks.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-AdminBlocks.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-AdminDownloads.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-AdminDownloads.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-AdminModules.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-AdminModules.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Downloads.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Downloads.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-echomodules.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-echomodules.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Help.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Help.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Modifications.turkish.php" destination="Themes/default/languages/AdkPortal" />
+		<require-file name="Adk-Modifications.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+	</install>
+		
+	<uninstall for="2.0 - 2.1.99, 2.1 Beta 2, 2.1 Beta 3">
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-Admin.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-Admin.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-AdminBlocks.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-AdminBlocks.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-AdminDownloads.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-AdminDownloads.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-AdminModules.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-AdminModules.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-Downloads.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-Downloads.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-echomodules.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-echomodules.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-Help.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-Help.turkish-utf8.php" />
+		<remove-file name="Themes/default/languages/AdkPortal/Adk-Modifications.turkish.php" />
+		<remove-file  name="Themes/default/languages/AdkPortal/Adk-Modifications.turkish-utf8.php" />
+	</uninstall>
+</package-info>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>snrj:adkblog-turkish</id>
+	<version>2.0</version>
+	<file name="$themedir/languages/Modifications.turkish.php" error="skip">
+		<operation>
+		<search position="end" />
+			<add><![CDATA[
+$txt['blogs_principal_title'] = 'Bloglar';
+$txt['blog_principal_title'] = 'Blog';
+$txt['blogs_manage_admin'] = 'blogları yönet';
+$txt['blogs_link_tree_news'] = 'Haberler';
+$txt['blog_settings'] = 'Ayarlar';
+$txt['adk_another_string'] = 'Bloğum';
+$txt['blog_not'] = 'Bildirimler';
+]]></add>
+		</operation>
+	</file>
+	<file name="$themedir/languages/Modifications.turkish-utf8.php" error="skip">
+		<operation>
+		<search position="end" />
+			<add><![CDATA[
+$txt['blogs_principal_title'] = 'Bloglar';
+$txt['blog_principal_title'] = 'Blog';
+$txt['blogs_manage_admin'] = 'blogları yönet';
+$txt['blogs_link_tree_news'] = 'Haberler';
+$txt['blog_settings'] = 'Ayarlar';
+$txt['adk_another_string'] = 'Bloğum';
+$txt['blog_not'] = 'Bildirimler';
+]]></add>
+		</operation>
+	</file>
+	
+</modification>
