@@ -17,7 +17,7 @@ global $scripturl;
 
 $txt['adkhelp_smf_personal'] = 'Adk Portal hakkýnda her þey';
 $txt['adkhelp_linktree_portal'] = 'Bu seçenek portalda görünmesini kaldýrýr ';
-$txt['adkhelp_two_column'] = 'This option enables two columns in the block.<br />The number of messages will double.';
+$txt['adkhelp_two_column'] = 'Bu mod portal block 2 kýsým oluþturur.<br />ileti gösterimi 2 katýna çýkartýr.';
 $txt['adkhelp_disable_autor'] = 'Bu ayar ile portaldaki haber ekledi duyurusunu kaldýrýrsýn.';
 $txt['adkhelp_news_size_img'] = 'This will be the maximum width that images will be on the block<br />To disable put 0';
 $txt['adkhelp_news_limit_topics'] = 'Block gösterilcek konularý sýnýrla';
