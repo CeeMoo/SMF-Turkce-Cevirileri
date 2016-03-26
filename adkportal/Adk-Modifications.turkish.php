@@ -62,7 +62,7 @@ $txt['permissiongroup_adkdownloads'] = 'Downloads sistemi (Adk portal)';
 $txt['permissiongroup_simple_adkdownloads'] = 'Downloads sistemi (Adk Portal)';
 $txt['cannot_adk_downloads_add'] = 'Sizin downloads eklemek için izniniz yok.';
 $txt['permissionname_adk_downloads_autoapprove'] = 'Otomatik downloads onaylamak';
-$txt['permissionhelp_adk_downloads_autoapprove'] = 'The user downloads do not need to be seen by an administrator.';
+$txt['permissionhelp_adk_downloads_autoapprove'] = 'kullanýcýnýn downloadlarý bir yönetici tarafýndan görülmesi gerekmez..';
 $txt['permissionname_adk_downloads_manage'] = 'Downloads sisteminin yönetimi';
 $txt['permissionhelp_adk_downloads_manage'] = 'Download sistemi yönetmek için izin verir.';
 $txt['cannot_adk_downloads_manage'] = 'Download merkezine ulaþmak izniniz yok.';
@@ -134,18 +134,18 @@ $txt['who_adk_page'] = 'Viewing a site page';
 $txt['who_adk_shoutbox'] = 'Viewing Sohbet Kutusu';
 $txt['who_adk_index_pages'] = 'Viewing Page Index';
 
-$txt['adkmod_Adkportaldonate'] = '<div style="text-align:center;" class="smalltext"><a href="http://www.smfpersonal.net/index.php?action=about;sa=contribute" target="blank">projeye katkýda bulun</a></div>';
+$txt['adkmod_Adkportaldonate'] = '<div style="text-align:center;" class="smalltext"><a href="http://www.smfpersonal.net/index.php?action=about;sa=contribute" target="blank">projeye katkýda bulun</a><br/>Türkçe çeviri:<a href="http://smf.konusal.com/" target="blank">smf destek</a></div>';
 
 //Fatal errors
-$txt['adkfatal_wrong_icon_id'] = 'The icon you are trying to delete does not exist.';
-$txt['adkfatal_not_select_image_icon'] = 'The image you are trying to upload is invalid.';
-$txt['adkfatal_page_not_exist'] = 'The page you are trying to view does not exist';
-$txt['adkfatal_shout_now_allowed'] = 'You do not have permission to view this module.';
-$txt['adkfatal_adding_news_false'] = 'The topic you are trying to add does not exist.';
-$txt['adkfatal_form_error'] = 'There was an error in the form. Please complete all fields.';
-$txt['adkfatal_empty_title'] = 'There was an error. The title field is required.';
-$txt['adkfatal_empty_body'] = 'There was an error. The message body is required.';
-$txt['adkfatal_adk_not_page_id'] = 'The page you are trying to view does not exist.';
+$txt['adkfatal_wrong_icon_id'] = 'simgesi bulunmamaktadýr silmeye çalýþtýðýnýzýn.';
+$txt['adkfatal_not_select_image_icon'] = 'Yüklemeye çalýþtýðýnýz resim geçersiz.';
+$txt['adkfatal_page_not_exist'] = 'Görüntülemeye çalýþtýðýnýz sayfa mevcut deðil';
+$txt['adkfatal_shout_now_allowed'] = 'Bu modülü görüntülemek için izniniz yok.';
+$txt['adkfatal_adding_news_false'] = 'Eklemeye çalýþtýðýnýz konu mevcut deðil .';
+$txt['adkfatal_form_error'] = 'Formunda bir hata oluþtu. Lütfen tüm alanlarý doldurun.';
+$txt['adkfatal_empty_title'] = 'Bir hata oluþtu. baþlýk alaný gerekiyor.';
+$txt['adkfatal_empty_body'] = 'Bir hata oluþtu. Mesaj gövdesi gereklidir.';
+$txt['adkfatal_adk_not_page_id'] = 'Görüntülemeye çalýþtýðýnýz sayfa mevcut deðil.';
 $txt['adkfatal_require_url'] = 'Lütfen URL ekleyin';
 $txt['adkfatal_require_image'] = 'Bir resim veya url eklemeniz gerekicek.';
 $txt['adkfatal_this_module_doesnt_exist'] = 'Bu modül kapalý.';
@@ -159,7 +159,7 @@ $txt['adkfatal_please_add_a_title'] = 'Dosyana baþlýk eklemelisin.';
 $txt['adkfatal_please_add_a_body'] = 'Bilgi alanýný doldur.';
 $txt['adkfatal_empty_attach'] = 'Dosya eklerseniz indirirsiniz.';
 $txt['adkfatal_require_id_file'] = 'Varolmayan dosyayý editliyemezsiniz.';
-$txt['adkfatal_not_permission'] = 'You do not have permission to perform this action.';
+$txt['adkfatal_not_permission'] = 'Bu eylemi gerçekleþtirmek için izniniz yok.';
 $txt['adkfatal_big_size'] = 'Eklemeye çalýþtýðýnýz dosya boyut olarak kurtarmýyor.';
 $txt['adkfatal_this_download_not_exist'] = 'Böyle bir dosya bulunmamaktadýr.';
 $txt['adkfatal_this_download_not_approved'] = 'Bu dosya onaylanmamýþ';
@@ -168,29 +168,29 @@ $txt['adkfatal_cannot_view'] = 'Bu bölüm için yetkiniz kurtarmýyor';
 $txt['adkfatal_cat_title_false'] = 'Yeni kategori isim giriniz.';
 $txt['adkfatal_invalid_id_category'] = 'Malesef böyle bir kategori bulunmuyor.';
 $txt['adkfatal_weight_height_false'] = 'icon için en yüksek en 128px dir';
-$txt['adkfatal_top_karma_error'] = 'There was an error. You need to put the number of users to display in the block.';
-$txt['adkfatal_auto_news_error'] = 'There was an error. You need to select the boards to display in the block.';
-$txt['adkfatal_please_add_a_body_message'] = 'There was an error. The message body is empty.';
-$txt['adkfatal_insert_multi_id'] = 'There was an error. You need to select at least one block.';
-$txt['adkfatal_empty_block_id'] = 'There was an error. The block you are trying to view does not exist.';
-$txt['adkfatal_empty_news_id'] = 'There was an error. The new you are trying to view does not exist.';
+$txt['adkfatal_top_karma_error'] = 'Bir hata oluþtu.blok içerisinde görüntülemek için kullanýcý sayýsýný koymak gerek.';
+$txt['adkfatal_auto_news_error'] = 'Bir hata oluþtu.blok içerisinde görüntülemek için panolarý seçmeniz gerekir.';
+$txt['adkfatal_please_add_a_body_message'] = 'Bir hata oluþtu. ileti gövdesi boþ olamaz.';
+$txt['adkfatal_insert_multi_id'] = 'Bir hata oluþtu. En az bir blok seçmeniz gerekir.';
+$txt['adkfatal_empty_block_id'] = 'Bir hata oluþtu. siz görüntülemeye çalýþtýðýnýz blok bulunmamaktadýr.';
+$txt['adkfatal_empty_news_id'] = 'Bir hata oluþtu.yeni görüntülemeye çalýþtýðýnýz mevcut deðil.';
 $txt['adkfatal_lang_error_not_block'] = 'You are not upload any block.';
 $txt['adkfatal_extension'] = 'php olduðuna eminmisin?';
 $txt['adkfatal_invalid_type'] = 'Geçersiz iþlem';
 $txt['adkfatal_empty_place'] = 'Þablon için alan seçmen gerekir.';
-$txt['adkfatal_template_invalid_id'] = 'There was an error. The template you are trying to view does not exist.';
-$txt['adkfatal_exists_this_template'] = 'The template you are trying to create already exists';
-$txt['adkfatal_you_can_not_modify_portal_template'] = 'You may not remove or disable the portal template';
-$txt['adkfatal_smf_p_Blocklar_not'] = 'You are trying to download a block that does not exist.';
-$txt['adkfatal_enable_blog_please'] = 'You can enable Adk blog';
-$txt['adkfatal_captcha_invalid'] = 'Visual verification failed';
+$txt['adkfatal_template_invalid_id'] = 'Bir hata oluþtu.görüntülemeye çalýþtýðýnýz þablon mevcut deðil.';
+$txt['adkfatal_exists_this_template'] = 'siz oluþturmak için çalýþýyoruz þablon zaten var';
+$txt['adkfatal_you_can_not_modify_portal_template'] = 'Portal þablonunu kaldýrmak veya devre dýþý olabilir';
+$txt['adkfatal_smf_p_Blocklar_not'] = 'Var olmayan bir blok indirmek için çalýþýyorsunuz.';
+$txt['adkfatal_enable_blog_please'] = 'Adk blog etkinleþtirebilirsiniz';
+$txt['adkfatal_captcha_invalid'] = 'Görsel doðrulama baþarýsýz oldu';
 $txt['adkfatal_module_not_enable'] = 'Bu modül kapalý.';
 $txt['adkfatal_guest_not_add'] = 'Ziyaretçi dosya ekliyemez.';
-$txt['adkfatal_not_zero_data'] = 'Se ha producido un error al guardar los datos.<br />Los siguientes campos no pueden estar vacios o con valor cero (0)<br />
-<strong>Amount of News per Page<br />
-Number of topics to display<br />
-Limit of topics to showing in the block<br />
-User Limit in En çok Yazanlar</strong>';
+$txt['adkfatal_not_zero_data'] = 'Veri kaydedilirken bir hata oluþtu.<br />Aþaðýdaki alanlar boþ veya sýfýr olamaz (0)<br />
+<strong>Sayfa baþýna Haber miktarý<br />
+Baþlýk sayýsý Görüntülenecek<br />
+blokta gösterelicek konularýn sýnýrý<br />
+Kullanýcý Sýnýrý En çok Yazanlar</strong>';
 
 // eds
 $txt['adkeds_nocategory'] = 'Böyle bir kategori oluþturulmadý.';

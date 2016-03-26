@@ -16,12 +16,12 @@
 global $scripturl;
 
 //Sources FIle
-$txt['adkmodules_modules_settings'] = 'Modules';
-$txt['adkmodules_first_modules'] = 'Here is a list of modules that can be downloaded from smf personal. 
-You can manage them once installed. The modules are installed as a <a href="'.$scripturl.'?action=admin;area=packages;sa=packageget;get" target="_blank"><strong>Package</strong></a>.';
-$txt['adkmodules_second_modules'] = 'Manage your pages system';
-$txt['adkmodules_desc_contacto'] = 'You may add a new section where users can contact the board administrators.';
-$txt['adkmodules_tirth_modules'] = 'You can turn your images into nice covers!
+$txt['adkmodules_modules_settings'] = 'Modüller';
+$txt['adkmodules_first_modules'] = 'smf personal indirilebilir modüllerin bir listesi. 
+onlarý bir kez yüklerseniz yönetebilirsiniz. modüller olarak yüklenir <a href="'.$scripturl.'?action=admin;area=packages;sa=packageget;get" target="_blank"><strong>Paket</strong></a>.';
+$txt['adkmodules_second_modules'] = 'Sayfalarýnýz sistemini yönetmek';
+$txt['adkmodules_desc_contacto'] = 'Kullanýcýlarýn bölüm yöneticileri irtibata geçebilirsiniz Nereden yeni bir bölüm ekleyebilirsiniz.';
+$txt['adkmodules_tirth_modules'] = 'Siz güzel kapak resimlerinizi etkinleþtirebilirsiniz!
 Just select the format and the image that you are going to use. You can use these images on the  Random Images block or in the carrousel.';
 $txt['adkmodules_fourth_modules'] = 'Administrating Images';
 $txt['adkmodules_admin_pages_create'] = 'Yeni sayfa oluþtur';
@@ -44,7 +44,7 @@ $txt['adkmodules_pages_body'] = 'Vücut';
 $txt['adkmodules_pages_type'] = 'Format';
 $txt['adkmodules_options'] = 'Ayarlar';
 $txt['adkmodules_pages_design'] = 'Tasarým';
-$txt['adkmodules_pages_groups'] = 'Gruplarý seç to see this page';
+$txt['adkmodules_pages_groups'] = 'Bu sayfayý görmek için Gruplarý seç';
 $txt['adkmodules_admin_pages_in'] = 'in';
 $txt['adkmodules_select_a_format'] = 'Format Seç';
 $txt['adkmodules_none'] = 'Hepsi';
@@ -53,7 +53,7 @@ $txt['adkmodules_current_images'] = 'Güncel resimler';
 $txt['adkmodules_delete_image'] = 'Resmi sil';
 $txt['adkmodules_any_url'] = 'Url';
 $txt['adkmodules_select_image'] = 'Resmi seç';
-$txt['adkmodules_select_maybe_image_url'] = 'If you want, you can enter the image\'s url instead of uploading it.';
+$txt['adkmodules_select_maybe_image_url'] = 'Bunu yüklemek yerine Ýsterseniz resimlerin url girebilirsiniz.';
 $txt['adkmodules_water_mark'] = 'Filigran';
 $txt['adkmodules_no_images'] = 'Resim oluþturulmadý';
 $txt['adkmodules_enable_contact'] = 'Bu modül aktif';

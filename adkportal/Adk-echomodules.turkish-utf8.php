@@ -31,7 +31,7 @@ $txt['adkmodules_credits_08'] = 'To <b>Translators</b> that they can make readin
 $txt['adkmodules_credits_09'] = 'To <b>Testers</b> they are restless for errors.';
 $txt['adkmodules_credits_10'] = 'To <b>Friends</b> they give us their unconditional support.';
 $txt['adkmodules_credits_11'] = 'Staff';
-$txt['adkmodules_credits_12'] = 'Special Thanks';
+$txt['adkmodules_credits_12'] = 'Özel teşekkür';
 $txt['adkmodules_form_send_content'] = 'Mesaj İçeriği';
 $txt['adkmodules_form_sendeded'] = 'Mesaj gönderildi. teşekkürler';
 $txt['adkmodules_form_send_all'] = 'veri gönderme';
@@ -41,7 +41,7 @@ $txt['adkmodules_index_pages'] = 'Sayfa İndeksi';
 $txt['adkmodules_add_comment'] = 'Yorum ekle';
 $txt['adkmodules_comments'] = 'Yorumlar';
 $txt['adkmodules_reply'] = 'Cevapla';
-$txt['adkmodules_clean_unread'] = 'Clean unread comments';
+$txt['adkmodules_clean_unread'] = 'Temiz okunmamış yorumlar';
 $txt['adkmodules_no_unread'] = 'Okunmamış Yorumlar';
 
 ?>

@@ -30,7 +30,7 @@ $txt['adkblock_multi_block'] = 'Çoklu Blok';
 $txt['adkblock_create_custom_block'] = 'Özgür blok oluştur';
 $txt['adkblock_none'] = 'Hiçbiri';
 $txt['adkblock_permissions'] = 'İzinler';
-$txt['adkblock_download_personal_desc'] = 'Install Blocklar directly from SMF Personal. To install one of these Blocklar, click on the Install button and Adkportal will do the rest.';
+$txt['adkblock_download_personal_desc'] = 'SMF Personal doğrudan Blocklar yükleyin.Bu Blocklar birini yüklemek için Install düğmesine tıklayın, ve Adkportal geri kalanı yapacak.';
 
 //Template file
 $txt['adkblock_aporte'] = 'Block: Haberleri';
@@ -127,7 +127,7 @@ $txt['adkblock_php_help'] = 'Özel bir php bloğu oluşturun';
 $txt['adkblock_top_poster_help'] = 'Yeni bir çok mesaj gönderen bloğu oluşturun yeni ayarlarla';
 $txt['adkblock_auto_news_help'] = 'Başka otomatik haber bloğu oluşturun';
 $txt['adkblock_top_karma_help'] = 'Create a top karma block';
-$txt['adkblock_staff_help'] = 'Create a custom staff block with your favourites groups ;)';
+$txt['adkblock_staff_help'] = 'favori grupları ile özel bir personel Blok oluştur ;)';
 $txt['adkblock_multi_block_help'] = 'Çoklu Blok ile yeni bir blok oluşturmak';
 
 ?>
