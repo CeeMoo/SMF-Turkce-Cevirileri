@@ -27,9 +27,9 @@ $txt['adkdown_never'] = 'Asla';
 $txt['adkdown_send_pm'] = 'Onaylandý';
 $txt['adkdown_view_stats'] = 'Ýstatislik';
 $txt['adkdown_search'] = 'Ara';
-$txt['adkdown_downloads'] = 'Downloads';
+$txt['adkdown_downloads'] = 'Download';
 $txt['adkdown_myprofile'] = 'Profil bilgilerim';
-$txt['adkdown_approve_admin'] = 'Downloads Onayla';
+$txt['adkdown_approve_admin'] = 'Download Onayla';
 $txt['adkdown_none'] = 'Her þey';
 
 //Template File
@@ -43,7 +43,7 @@ $txt['adkdown_title_autor'] = 'kiþisel baþlýk';
 $txt['adkdown_subject'] = 'konu';
 $txt['adkdown_data_info'] = 'Download Bilgileri';
 $txt['adkdown_date'] = 'Tarih';
-$txt['adkdown_no_downloads'] = 'henüz hiçbir downloads';
+$txt['adkdown_no_downloads'] = 'henüz hiçbir download';
 $txt['adkdown_category'] = 'Kategori';
 $txt['adkdown_last_down'] = 'Son download';
 $txt['adkdown_sub_cat'] = 'Alt kategoriler';

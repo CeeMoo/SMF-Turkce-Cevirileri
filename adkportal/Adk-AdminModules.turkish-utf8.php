@@ -23,7 +23,7 @@ $txt['adkmodules_second_modules'] = 'Sayfalarınız sistemini yönetmek';
 $txt['adkmodules_desc_contacto'] = 'Kullanıcıların bölüm yöneticileri irtibata geçebilirsiniz Nereden yeni bir bölüm ekleyebilirsiniz.';
 $txt['adkmodules_tirth_modules'] = 'Siz güzel kapak resimlerinizi etkinleştirebilirsiniz!
 Just select the format and the image that you are going to use. You can use these images on the  Random Images block or in the carrousel.';
-$txt['adkmodules_fourth_modules'] = 'Administrating Images';
+$txt['adkmodules_fourth_modules'] = 'Yönetim Görüntüleri';
 $txt['adkmodules_admin_pages_create'] = 'Yeni sayfa oluştur';
 $txt['adkmodules_admin_pages_edit'] = 'Sayfa düzenle';
 $txt['adkmodules_opcion_img'] = 'Resimleri yönet';
@@ -45,7 +45,7 @@ $txt['adkmodules_pages_type'] = 'Format';
 $txt['adkmodules_options'] = 'Ayarlar';
 $txt['adkmodules_pages_design'] = 'Tasarım';
 $txt['adkmodules_pages_groups'] = 'Bu sayfayı görmek için Grupları seç';
-$txt['adkmodules_admin_pages_in'] = 'in';
+$txt['adkmodules_admin_pages_in'] = ',';
 $txt['adkmodules_select_a_format'] = 'Format Seç';
 $txt['adkmodules_none'] = 'Hepsi';
 $txt['adkmodules_preview_design'] = 'Önceki tasarım';

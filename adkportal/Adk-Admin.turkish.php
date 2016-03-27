@@ -35,7 +35,7 @@ $txt['adkadmin_currentversion'] = 'Son Sürüm';
 $txt['adkadmin_general_settings'] = 'Genel Ayarlar';
 $txt['adkadmin_columns_settings'] = 'Sütun Ayarlarý';
 $txt['adkadmin_more_settings'] = 'Daha fazla ayar';
-$txt['adkadmin_enable_img_blocks'] = 'bloklarda simgeleri etkin hale getir.';
+$txt['adkadmin_enable_img_blocks'] = 'Bloklarda simgeleri etkin hale getir.';
 $txt['adkadmin_mofe_info_stand'] = 'To account for: You need to upload the file AdkStandAlone.php in place that corresponds to this url. Eðer þüpheniz varsa, SMF Personalýn ekibine baþvurun çekinmeyin.
 Once uploaded the file, rename to index.php';
 $txt['adkadmin_disable'] = 'Devre dýþý';

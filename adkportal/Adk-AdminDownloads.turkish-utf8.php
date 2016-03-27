@@ -14,12 +14,12 @@
  */
 
 $txt['adkeds_main_title'] = 'Downloads sistemi';
-$txt['adkeds_main_desc'] = 'Downloads sistemi admin.Her kullanıcı özel izinler vererek, yeni kategoriler oluşturarak, kendi sisteminizi oluşturabilirsiniz.';
+$txt['adkeds_main_desc'] = 'Download sistemi admin.Her kullanıcı özel izinler vererek, yeni kategoriler oluşturarak, kendi sisteminizi oluşturabilirsiniz.';
 $txt['adkeds_settings'] = 'Seçenekler';
 $txt['adkeds_add_desc'] = 'Yeni bir kategori oluşturun. Ana kategori veya alt kategori olarak bu kategoriyi seçebilirsiniz.';
 $txt['adkeds_current_cat'] = 'Güncel kategoriler';
 $txt['adkeds_current_cat_desc'] = 'Forum tarafından oluşturulan kategorilere bak. Düzenleyebilir veya silebilirsiniz.';
-$txt['adkeds_approve'] = 'Downloads onayla';
+$txt['adkeds_approve'] = 'Download onayla';
 $txt['adkeds_approve_desc'] = 'Onaylanmış ve onaylanmamış Downloadları izle.';
 $txt['adkeds_regulars_users'] = 'Düzenli kullanıcılar';
 $txt['adkeds_guests'] = 'Ziyaretçi';

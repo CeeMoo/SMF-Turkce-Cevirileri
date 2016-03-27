@@ -25,13 +25,13 @@ $txt['adkmod_smf_personal'] = 'Adk Portal yardým';
 
 //Admin Blocklar
 $txt['adkmod_block_templates'] = 'Þablonlar';
-$txt['adkmod_block_manage'] = 'Blocklarý yönetin';
-$txt['adkmod_block_title'] = 'Blocklar';
-$txt['adkmod_block_settings'] = 'Blocklarý yapýlandýr';
-$txt['adkmod_block_add'] = 'Block ekle';
+$txt['adkmod_block_manage'] = 'Bloklarý yönetin';
+$txt['adkmod_block_title'] = 'Bloklar';
+$txt['adkmod_block_settings'] = 'Bloklarý yapýlandýr';
+$txt['adkmod_block_add'] = 'Blok ekle';
 $txt['adkmod_block_add_news'] = 'Yeni Ekle';
-$txt['adkmod_block_upload'] = 'Upload block';
-$txt['adkmod_block_download'] = 'Download Blocklar';
+$txt['adkmod_block_upload'] = 'Yükleme Blok';
+$txt['adkmod_block_download'] = 'Ýndirme Blok';
 
 //Admin Modules
 $txt['adkmod_modules_manage'] = 'Modulleri yönetin';
@@ -59,11 +59,11 @@ $txt['permissiongroup_simple_adkportal'] = 'Adk Portal';
 $txt['permissionname_adk_portal'] = 'Adkportal Yönetin';
 $txt['permissionhelp_adk_portal'] = 'ADK portal ve modülleri yönetmek için kullanýcýya izin verir';
 $txt['permissiongroup_adkdownloads'] = 'Downloads sistemi (Adk portal)';
-$txt['permissiongroup_simple_adkdownloads'] = 'Downloads sistemi (Adk Portal)';
-$txt['cannot_adk_downloads_add'] = 'Sizin downloads eklemek için izniniz yok.';
-$txt['permissionname_adk_downloads_autoapprove'] = 'Otomatik downloads onaylamak';
+$txt['permissiongroup_simple_adkdownloads'] = 'Download sistemi (Adk Portal)';
+$txt['cannot_adk_downloads_add'] = 'Sizin download eklemek için izniniz yok.';
+$txt['permissionname_adk_downloads_autoapprove'] = 'Otomatik download onaylamak';
 $txt['permissionhelp_adk_downloads_autoapprove'] = 'kullanýcýnýn downloadlarý bir yönetici tarafýndan görülmesi gerekmez..';
-$txt['permissionname_adk_downloads_manage'] = 'Downloads sisteminin yönetimi';
+$txt['permissionname_adk_downloads_manage'] = 'Download sisteminin yönetimi';
 $txt['permissionhelp_adk_downloads_manage'] = 'Download sistemi yönetmek için izin verir.';
 $txt['cannot_adk_downloads_manage'] = 'Download merkezine ulaþmak izniniz yok.';
 $txt['cannot_adk_portal'] = 'Adk Portal Yönetmek için izniniz yok.';;
@@ -77,7 +77,7 @@ $txt['adkmod_collapse'] = 'Sütunu Daralt';
 $txt['adk_disable_notifications_profile'] = 'Sayfalar modülünde bildirimleri devre dýþý býrak ';
 
 //Buttons
-$txt['adkmod_downloads'] = 'Downloads';
+$txt['adkmod_downloads'] = 'Download';
 $txt['adkmod_forum'] = 'Forum';
 $txt['adkmod_pages'] = 'Sayfalar';
 $txt['adkmod_pages_unread'] = 'Okunmamýþ Yorumlar';
@@ -95,7 +95,7 @@ $txt['adkmod_block_last'] = 'Son ziyaret';
 $txt['adkmod_block_new_replies'] = 'Sadece Cevaplar';
 $txt['adkmod_block_hi'] = 'Merhaba';
 $txt['adkmod_block_guest'] = 'Ziyaretçi';
-$txt['adkmod_block_none_images'] = 'No images available';
+$txt['adkmod_block_none_images'] = 'Henüz resim yok';
 $txt['adkmod_block_who_title'] = 'Kimler çevrimiçi?';
 $txt['adkmod_block_remove_message'] = 'Bundan emin misin? Bu iþlem geri alýnamaz.';
 $txt['adkmod_block_borrar'] = 'Sil';
@@ -117,7 +117,7 @@ $txt['adkmod_block_nopost'] = '<div style="text-align: center;"><strong>Sohbet K
 $txt['activate_ssi'] = 'Lütfen yönetici bölümünden SSI ekleyiniz';
 
 //Who's integration
-$txt['who_adk_portal'] = 'Viewing portal site.';
+$txt['who_adk_portal'] = 'Portal sitesi görüntüleniyor.';
 $txt['who_adk_forum'] = 'Viewing the board index.';
 $txt['who_adk_credits'] = 'Viewing credits Adk Portal.';
 $txt['who_adk_contact'] = 'Viewing the contacts section.';
