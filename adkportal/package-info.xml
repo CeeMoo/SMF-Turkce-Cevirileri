@@ -23,6 +23,7 @@
 		<require-file name="Adk-Help.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
 		<require-file name="Adk-Modifications.turkish.php" destination="Themes/default/languages/AdkPortal" />
 		<require-file name="Adk-Modifications.turkish-utf8.php" destination="Themes/default/languages/AdkPortal" />
+		<code>installtr.php</code>
 	</install>
 		
 	<uninstall for="2.0 - 2.1.99, 2.1 Beta 2, 2.1 Beta 3">
