@@ -1,6 +1,6 @@
 <?php
 /*tükçe çeviri: http://smf.konusal.com/*/
-$txt['adk_blog_user_not_allowed'] = 'User not allowed to take blog';
+$txt['adk_blog_user_not_allowed'] = 'Kullanýcý blogu çekmesin.';
 $txt['blog_this_user_not_post_test'] = 'Henüz bloglar bulunmamaktadýr (yet).';
 $txt['adk_first_blogs'] = 'Bloglar';
 $txt['adk_anew_coment'] = 'Yeni Yorum';
