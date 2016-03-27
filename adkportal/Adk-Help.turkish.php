@@ -36,7 +36,7 @@ $txt['adkhelp_twitter_facebook'] = 'Block için Facebook ve Twitter eklebilirsini
 $txt['adkhelp_auto_news_limit_body'] = 'Haber uzunluðunu belirler ve "Devamý" buton eklenir.';
 $txt['adkhelp_robots'] = 'Örnek olarak : <a href="http://www.smfpersonal.net/robots.txt" target="_blank">Robots.txt</a>.';
 $txt['adkhelp_seo_use_path'] = 'For example, if your forum is hosted in www.smfpersonal.net/forum, you may add in the box below "forum".<br />Otherwise leave empty.';
-$txt['adkhelp_seo_enable_pages'] = 'Bu deðiþiklik ile arkadaþ sitelerini ekliyebilirsin.';
+$txt['adkhelp_seo_enable_pages'] = 'Bu deðiþiklik ile arkadaþ sitelerini ekliyebilirsin..';
 $txt['adkhelp_seo_enable_downloads'] = 'Bu ayarlar ile dost dosyalar ekleyebilirsin.';
 $txt['adkhelp_disponibles_modulos'] = 'SMF Personal yüklenebilir modül listeleri.
 ADK Portal deðiþik modülleri <a href="'.$scripturl.'?action=admin;area=packages">Yönetici Paketler</a>';
@@ -63,4 +63,29 @@ $txt['adkhelp_upload_yourBlock_info'] = 'Kendi pc ile php dosyasý seçerek block 
 $txt['adkhelp_form_select_admin'] = 'Bu iletiyi almak için rütbeli olmasý gerekir.';
 $txt['adkhelp_include_ssi'] = 'Unutma bazý dosyalar SMF anayolunda SSI.php kullanýr.';
 
+$txt['adkhelp_seo_enable_downloads'] = 'Bu ayarlar ile dost dosyalar ekleyebilirsin.';
+$txt['adkhelp_disponibles_modulos'] = 'SMF Personal yüklenebilir modül listeleri.
+ADK Portal deðiþik modülleri <a href="'.$scripturl.'?action=admin;area=packages">Yönetici Paketler</a>';
+$txt['adkhelp_select_a_format'] = 'Bu çerçevede istediðiniz görüntü deðiþikliði yapabilir veya varolan görüntü ile yetinebilirsiniz.';
+$txt['adkhelp_any_url'] = 'Blocklarýn Url görüntüsü ile bir olucaktýr.';
+$txt['adkhelp_select_image'] = 'Resim yüklemek için PCnizden seçin.';
+$txt['adkhelp_select_maybe_image_url'] = 'Url ile resim yükleyebilir veya pcnizden ekleyebilirsiniz.';
+$txt['adkhelp_water_mark'] = 'If desired, you can add a Filigran to your images. Filigrans can create a unique look for your website.';
+$txt['adkhelp_guest_view_post'] = 'If visitors are not allowed to browse the forum, selecting this option you can display only the portal anyway.';
+$txt['adkhelp_general_error'] = 'To resolve this error, edit the category. The parent forum ID is incorrect, not exist.';
+$txt['adkhelp_autonews_boards'] = 'Choose the boards to block automatic news. The block will bring the latest topics sorted by date of selected forums.';
+$txt['adkhelp_select_template'] = 'This will be the type of template to create.';
+$txt['adkhelp_template_import_from'] = 'Block yerini kopyalamak istersen þablon seçebilirsin.';
+$txt['adkhelp_place'] = 'Þablonun görüneceði yeri seçin.
+<br /> Eðer "baþka" seçersen istediðin yere yerleþtirebilirsin.
+<br /> Tüm alanlarý seçerek þablonu istediðiniz gibi yönetebilirsiniz.
+<br /><br /> Örnek: Þablon activiteleri
+<br /> Düðer: haklar
+<br /> Her alan: her eylemi gerçekleþtir.';
+$txt['adkhelp_only_portal'] = 'Þablon bloklarýna portalý düzenleme ekliyebilirsiniz.';
+$txt['adkhelp_enable_page_menu'] = 'index dizinlerini aktif ederek üyelerin indexlemesini görüntüleyebilirsiniz.';
+$txt['adkhelp_staff_group'] = 'Görünücek gruplarý seç.';
+$txt['adkhelp_upload_yourBlock_info'] = 'Kendi pc ile php dosyasý seçerek block indirtebilirsiniz.';
+$txt['adkhelp_form_select_admin'] = 'Bu iletiyi almak için rütbeli olmasý gerekir.';
+$txt['adkhelp_include_ssi'] = 'Unutma bazý dosyalar SMF anayolunda SSI.php kullanýr.';
 ?>

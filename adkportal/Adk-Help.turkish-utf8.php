@@ -17,15 +17,15 @@ global $scripturl;
 
 $txt['adkhelp_smf_personal'] = 'Adk Portal hakkında her şey';
 $txt['adkhelp_linktree_portal'] = 'Bu seçenek portalda görünmesini kaldırır ';
-$txt['adkhelp_two_column'] = 'This option enables two columns in the block.<br />The number of messages will double.';
-$txt['adkhelp_disable_autor'] = 'This option disables the message of who added the news to the portal';
-$txt['adkhelp_news_size_img'] = 'This will be the maximum width that images will be on the block<br />To disable put 0';
-$txt['adkhelp_news_limit_topics'] = 'Set the limit of topics to showing in the block';
-$txt['adkhelp_activate'] = 'Activate or desactive. Note: The Independent or Standalone mode allows you to run Adk Portal on a different folder.';
-$txt['adkhelp_url_stand'] = 'This will be the \'Home\' URL. Note: Only for StandAlone mode.';
-$txt['adkhelp_hide_version'] = 'This will hide the version of your portal.';
-$txt['adkhelp_change_title'] = 'The Portal Title is independent from the Forum.';
-$txt['width_portal_2'] = 'Set the width for each column. Remember that the width is set in percentages or pixels.';
+$txt['adkhelp_two_column'] = 'Bu mod portal block 2 kısım oluşturur.<br />ileti gösterimi 2 katına çıkartır.';
+$txt['adkhelp_disable_autor'] = 'Bu ayar ile portaldaki haber ekledi duyurusunu kaldırırsın.';
+$txt['adkhelp_news_size_img'] = 'Blocklardaki resme sınır yok<br /> 0 ile sınırı bağımsız yapabilirsin. ';
+$txt['adkhelp_news_limit_topics'] = 'Block gösterilcek konuları sınırla';
+$txt['adkhelp_activate'] = 'Aktif veya Kapalı. Bilgi:Bağımsız url ile portalınızı başka urlde çalıştırabilirsiniz.';
+$txt['adkhelp_url_stand'] = 'Sadece \'Anasayfa\' URL değil. Bağımsız mod için.';
+$txt['adkhelp_hide_version'] = 'Portal sürümünü gizle.';
+$txt['adkhelp_change_title'] = 'Portal başlığını forumdan bağımsız eyle.';
+$txt['width_portal_2'] = 'Kolonların enini ayarlayın.Enin px sınırına göre şekillenceğini unutma.';
 $txt['adkhelp_disable_colexpand'] = 'This option hides the buttons to expand/collapse the columns';
 $txt['adkhelp_enable_img_blocks'] = 'Each block can have its own icon, you can select when you edit. From here enable and disable the icons of all blocks.';
 $txt['adkhelp_format_blocks'] = 'Adk Portal has incredible styles for your forum. Select the one you like and better adapt his style.';
@@ -34,22 +34,22 @@ $txt['adkhelp_help_current_version'] = 'Adk Portal Smf Personal son sürümü';
 $txt['adkhelp_number_news'] = 'Block başına haber sayısı'; 
 $txt['adkhelp_twitter_facebook'] = 'Block için Facebook ve Twitter eklebilirsiniz';
 $txt['adkhelp_auto_news_limit_body'] = 'Haber uzunluğunu belirler ve "Devamı" buton eklenir.';
-$txt['adkhelp_robots'] = 'You may use as an example: <a href="http://www.smfpersonal.net/robots.txt" target="_blank">Robots.txt</a>.';
+$txt['adkhelp_robots'] = 'Örnek olarak : <a href="http://www.smfpersonal.net/robots.txt" target="_blank">Robots.txt</a>.';
 $txt['adkhelp_seo_use_path'] = 'For example, if your forum is hosted in www.smfpersonal.net/forum, you may add in the box below "forum".<br />Otherwise leave empty.';
-$txt['adkhelp_seo_enable_pages'] = 'With this modification you can create url\'s friendly to their pages.';
-$txt['adkhelp_seo_enable_downloads'] = 'With this modification you can create url\'s friendly to their downloads.';
-$txt['adkhelp_disponibles_modulos'] = 'Displays a list of the modules available for download from SMF Personal.
-Remember Adk Portal modules installed as a modification in the <a href="'.$scripturl.'?action=admin;area=packages">Admin packages</a>';
-$txt['adkhelp_select_a_format'] = 'Here you can select the type of image you want to frame. If you choose any ... normally be uploaded image.';
-$txt['adkhelp_any_url'] = 'This url will be associated with the image in blocks.';
-$txt['adkhelp_select_image'] = 'Select the image from your PC for uploading.';
-$txt['adkhelp_select_maybe_image_url'] = 'If you wish, you can insert the url of your image ... and not upload it from your pc.';
+$txt['adkhelp_seo_enable_pages'] = 'Bu değişiklik ile arkadaş sitelerini ekliyebilirsin..';
+$txt['adkhelp_seo_enable_downloads'] = 'Bu ayarlar ile dost dosyalar ekleyebilirsin.';
+$txt['adkhelp_disponibles_modulos'] = 'SMF Personal yüklenebilir modül listeleri.
+ADK Portal değişik modülleri <a href="'.$scripturl.'?action=admin;area=packages">Yönetici Paketler</a>';
+$txt['adkhelp_select_a_format'] = 'Bu çerçevede istediğiniz görüntü değişikliği yapabilir veya varolan görüntü ile yetinebilirsiniz.';
+$txt['adkhelp_any_url'] = 'Blockların Url görüntüsü ile bir olucaktır.';
+$txt['adkhelp_select_image'] = 'Resim yüklemek için PCnizden seçin.';
+$txt['adkhelp_select_maybe_image_url'] = 'Url ile resim yükleyebilir veya pcnizden ekleyebilirsiniz.';
 $txt['adkhelp_water_mark'] = 'If desired, you can add a Filigran to your images. Filigrans can create a unique look for your website.';
 $txt['adkhelp_guest_view_post'] = 'If visitors are not allowed to browse the forum, selecting this option you can display only the portal anyway.';
 $txt['adkhelp_general_error'] = 'To resolve this error, edit the category. The parent forum ID is incorrect, not exist.';
 $txt['adkhelp_autonews_boards'] = 'Choose the boards to block automatic news. The block will bring the latest topics sorted by date of selected forums.';
 $txt['adkhelp_select_template'] = 'This will be the type of template to create.';
-$txt['adkhelp_template_import_from'] = 'You can select a template prior to copy blocks position their';
+$txt['adkhelp_template_import_from'] = 'Block yerini kopyalamak istersen şablon seçebilirsin.';
 $txt['adkhelp_place'] = 'Şablonun görüneceği yeri seçin.
 <br /> Eğer "başka" seçersen istediğin yere yerleştirebilirsin.
 <br /> Tüm alanları seçerek şablonu istediğiniz gibi yönetebilirsiniz.
@@ -57,10 +57,35 @@ $txt['adkhelp_place'] = 'Şablonun görüneceği yeri seçin.
 <br /> Düğer: haklar
 <br /> Her alan: her eylemi gerçekleştir.';
 $txt['adkhelp_only_portal'] = 'Şablon bloklarına portalı düzenleme ekliyebilirsiniz.';
-$txt['adkhelp_enable_page_menu'] = 'Activate the index pages button. This index pages displayed to a user can access.';
-$txt['adkhelp_staff_group'] = 'Select groups to show.';
+$txt['adkhelp_enable_page_menu'] = 'index dizinlerini aktif ederek üyelerin indexlemesini görüntüleyebilirsiniz.';
+$txt['adkhelp_staff_group'] = 'Görünücek grupları seç.';
 $txt['adkhelp_upload_yourBlock_info'] = 'Kendi pc ile php dosyası seçerek block indirtebilirsiniz.';
 $txt['adkhelp_form_select_admin'] = 'Bu iletiyi almak için rütbeli olması gerekir.';
 $txt['adkhelp_include_ssi'] = 'Unutma bazı dosyalar SMF anayolunda SSI.php kullanır.';
 
+$txt['adkhelp_seo_enable_downloads'] = 'Bu ayarlar ile dost dosyalar ekleyebilirsin.';
+$txt['adkhelp_disponibles_modulos'] = 'SMF Personal yüklenebilir modül listeleri.
+ADK Portal değişik modülleri <a href="'.$scripturl.'?action=admin;area=packages">Yönetici Paketler</a>';
+$txt['adkhelp_select_a_format'] = 'Bu çerçevede istediğiniz görüntü değişikliği yapabilir veya varolan görüntü ile yetinebilirsiniz.';
+$txt['adkhelp_any_url'] = 'Blockların Url görüntüsü ile bir olucaktır.';
+$txt['adkhelp_select_image'] = 'Resim yüklemek için PCnizden seçin.';
+$txt['adkhelp_select_maybe_image_url'] = 'Url ile resim yükleyebilir veya pcnizden ekleyebilirsiniz.';
+$txt['adkhelp_water_mark'] = 'If desired, you can add a Filigran to your images. Filigrans can create a unique look for your website.';
+$txt['adkhelp_guest_view_post'] = 'If visitors are not allowed to browse the forum, selecting this option you can display only the portal anyway.';
+$txt['adkhelp_general_error'] = 'To resolve this error, edit the category. The parent forum ID is incorrect, not exist.';
+$txt['adkhelp_autonews_boards'] = 'Choose the boards to block automatic news. The block will bring the latest topics sorted by date of selected forums.';
+$txt['adkhelp_select_template'] = 'This will be the type of template to create.';
+$txt['adkhelp_template_import_from'] = 'Block yerini kopyalamak istersen şablon seçebilirsin.';
+$txt['adkhelp_place'] = 'Şablonun görüneceği yeri seçin.
+<br /> Eğer "başka" seçersen istediğin yere yerleştirebilirsin.
+<br /> Tüm alanları seçerek şablonu istediğiniz gibi yönetebilirsiniz.
+<br /><br /> Örnek: Şablon activiteleri
+<br /> Düğer: haklar
+<br /> Her alan: her eylemi gerçekleştir.';
+$txt['adkhelp_only_portal'] = 'Şablon bloklarına portalı düzenleme ekliyebilirsiniz.';
+$txt['adkhelp_enable_page_menu'] = 'index dizinlerini aktif ederek üyelerin indexlemesini görüntüleyebilirsiniz.';
+$txt['adkhelp_staff_group'] = 'Görünücek grupları seç.';
+$txt['adkhelp_upload_yourBlock_info'] = 'Kendi pc ile php dosyası seçerek block indirtebilirsiniz.';
+$txt['adkhelp_form_select_admin'] = 'Bu iletiyi almak için rütbeli olması gerekir.';
+$txt['adkhelp_include_ssi'] = 'Unutma bazı dosyalar SMF anayolunda SSI.php kullanır.';
 ?>
