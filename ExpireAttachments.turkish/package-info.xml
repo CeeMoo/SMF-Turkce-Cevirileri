@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>snrj:Expire_Attachments_turkish</id>
+	<name>Expire Attachments turkish</name>
+	<version>1.0</version>
+	<type>modification</type>
+
+	<install for="2.0 - 2.0.99">
+		<readme type="file" parsebbc="true">readme.txt</readme>
+		<require-file name="ExpireAttachments.turkish.php" destination="$languagedir" />
+		<require-file name="ExpireAttachments.turkish-utf8.php" destination="$languagedir" />
+	</install>
+	<uninstall for="2.0 - 2.0.99">
+		<remove-file name="$languagedir/ExpireAttachments.turkish.php" />
+		<remove-file name="$languagedir/ExpireAttachments.turkish-utf8.php" />
+	</uninstall>
+
+</package-info>
