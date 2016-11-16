@@ -3,91 +3,100 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 	<id>Konusal:CustomFormMod-turkish</id>
 	<version>1.7</version>
-	<file name="$themedir/languages/Modifications.turkish.php">
+	<file name="$themedir/languages/Modifications.turkish.php" error="skip">
 		<operation>
 			<search position="end" />
 			<add><![CDATA[
-//	**Start Custom Form Mod Text**
+//	**Start Özel Form Mod**
+/**
+ *  @türkçe çeviri snrj 
+ *  @http://smf.konusal.com/
+ */
 //	Header and General text for the Custom Form Mod settings area.
-$txt['CustomForm_generalsettings_heading'] = 'Custom Form Mod Settings';
-$txt['CustomForm_tabheader'] = 'Custom Forms';
+$txt['CustomForm_generalsettings_heading'] = 'Özel Form Mod Ayarları';
+$txt['CustomForm_tabheader'] = 'Özel Formlar';
 $txt['CustomForm_form'] = 'Form';
-$txt['CustomForm_field'] = 'Field';
-$txt['CustomForm_view_title'] = 'View Forms Title';
-$txt['CustomForm_view_text'] = 'View Forms Text';
-$txt['CustomForm_view_perms'] = 'Form View Page Permissions';
+$txt['CustomForm_field'] = 'Alan';
+$txt['CustomForm_view_title'] = 'Form Başlığını Görüntüle';
+$txt['CustomForm_view_text'] = 'Form Metinlerini Görüntüle';
+$txt['CustomForm_view_perms'] = 'Form Görünümü Sayfası İzinleri';
 
 //	Stuff for the forms action
-$txt['CustomForm_submit'] = 'Submit Form';
-$txt['CustomForm_required'] = 'Required Fields';
+$txt['CustomForm_submit'] = 'Formu gönder';
+$txt['CustomForm_required'] = 'Zorunlu Alanlar';
 
 //	Junk for the list areas.
-$txt['CustomForm_listheading_fields'] = 'Form Fields';
-$txt['CustomForm_add_form'] = 'Add New Form';
-$txt['CustomForm_add_field'] = 'Add New Field';
-$txt['CustomForm_edit'] = 'Edit';
-$txt['CustomForm_delete_warning'] = 'Are you sure you want to delete this?';
-$txt['CustomForm_list_noelements'] = 'This list is currently empty.';
-$txt['CustomForm_moveup'] = 'Move Up';
-$txt['CustomForm_movedown'] = 'Move Down';
+$txt['CustomForm_listheading_fields'] = 'Form Alanları';
+$txt['CustomForm_add_form'] = 'Yeni Form Ekle';
+$txt['CustomForm_add_field'] = 'Yeni Alan Ekle';
+$txt['CustomForm_edit'] = 'Düzenle';
+$txt['CustomForm_delete_warning'] = 'Bunu silmek istediğinizden emin misiniz?';
+$txt['CustomForm_list_noelements'] = 'Bu liste boş.';
+$txt['CustomForm_moveup'] = 'Yukarı Taşı';
+$txt['CustomForm_movedown'] = 'Aşağı Taşı';
 
 //	Text for the settings pages.
-$txt['CustomForm_text'] = 'Text';
-$txt['CustomForm_type'] = 'Type';
-$txt['CustomForm_type_vars'] = 'Extra Type Parameters';
-$txt['CustomForm_output'] = 'Form Output';
+$txt['CustomForm_text'] = 'Metin';
+$txt['CustomForm_type'] = 'Tip';
+$txt['CustomForm_type_vars'] = 'Ekstra Tip Parametreleri';
+$txt['CustomForm_output'] = 'Form Çıktısı';
 $txt['CustomForm_board_id'] = 'Board';
-$txt['CustomForm_template_function'] = 'Custom Template Function';
-$txt['CustomForm_exit'] = 'Submit Redirect';
+$txt['CustomForm_template_function'] = 'Özel Şablon İşlevi';
+$txt['CustomForm_exit'] = 'Yönlendirmeyi Gönder';
 
 //  Redirection Text
 $txt['CustomForm_forum'] = 'Forum';
-$txt['CustomForm_topic'] = 'Topic';
+$txt['CustomForm_topic'] = 'Konu';
 $txt['CustomForm_board'] = 'Board (default)';
-$txt['CustomForm_thanks'] = 'Thank You';
-$txt['CustomForm_list'] = 'Form List';
+$txt['CustomForm_thanks'] = 'Teşekkür ederim';
+$txt['CustomForm_list'] = 'Form Listesi';
 
 //  Text for the thankyou page
-$txt['CustomForm_thankyou'] = 'The information you entered has been submited.<br /><br />Thank you for taking the time to complete this form.<br /><br />You may now return to the Forum or view the Form List, if available.';
+$txt['CustomForm_thankyou'] = 'Girmiş olduğunuz bilgi gönderildi. <br /> <br /> Bu formu tamamlamak için zaman ayırdığınız için teşekkür ederiz. <br /> <br /> Artık Foruma geri dönebilir veya mevcutsa Form Listesini görüntüleyebilirsiniz.';
 
 //	Options for the selectbox on the field edit page.
-$txt['CustomForm_checkbox'] = 'Check Box';
-$txt['CustomForm_selectionbox'] = 'Selection Box';
-$txt['CustomForm_textbox'] = 'Text Box (String)';
-$txt['CustomForm_large_textbox'] = 'Large (Multiline) Text Box';
-$txt['CustomForm_int'] = 'Text Box (Integer)';
-$txt['CustomForm_float'] = 'Text Box (Float)';
-$txt['CustomForm_radiobox'] = 'Radio Box';
-$txt['CustomForm_infoboxa'] = 'Info Box';
+$txt['CustomForm_checkbox'] = 'Onay Kutusu';
+$txt['CustomForm_selectionbox'] = 'Seçim Kutusu';
+$txt['CustomForm_textbox'] = 'Metin kutusu (String)';
+$txt['CustomForm_large_textbox'] = 'Büyük (Multiline) Metin Kutusu';
+$txt['CustomForm_int'] = 'Metin kutusu (Integer)';
+$txt['CustomForm_float'] = 'Metin kutusu (Float)';
+$txt['CustomForm_radiobox'] = 'Radio Kutusu';
+$txt['CustomForm_infoboxa'] = 'Bilgi Kutusu';
 //	**End Custom Form Mod Text**
 ]]></add>
 		</operation>
 	</file>
-	<file name="$themedir/languages/Help.turkish.php">
+	<file name="$themedir/languages/Help.turkish.php" error="skip">
 		<operation>
 			<search position="after"><![CDATA[
 $helptxt['manage_boards'] = '
 ]]></search>
 			<add><![CDATA[
 //	**Start Custom Form Mod Help Text**
+/**
+ *  @türkçe çeviri snrj 
+ *  @http://smf.konusal.com/
+ */
 //	Help text for the general settings page.
-$helptxt['CustomForm_view_perms'] = 'This setting allows you to restrict the member groups that can see the list of the forms which they can access (At &quot;index.php?action=form&quot;). Note that even if they can see they list, they cannot see or use any forms which they do not have the permissions for.';
-$helptxt['CustomForm_view_title'] = 'This setting allows you to chose the title for the action/page that shows the list of forms to a user (at &quot;index.php?action=forms&quot;).  By default \'Custom Forms\' will be the title.';
-$helptxt['CustomForm_view_text'] = 'This setting allows you to chose the explanation text shown for the action/page that shows the list of forms to a user (at &quot;index.php?action=forms&quot;). By default nothing will be shown.';
+$helptxt['CustomForm_view_perms'] = 'Bu ayar, erişebildikleri formların listesini görebilen üye gruplarını kısıtlamanıza izin verir ( "index.php? Action = form" adresinde). Onların listede olduklarını bile olsa, izinleri olmadığı herhangi bir formu göremez veya kullanamazlar.';
+$helptxt['CustomForm_view_title'] = 'Bu ayar, bir kullanıcıya formların listesini gösteren işlem / sayfa başlığını seçmenizi sağlar (& quot; index.php? Action = forms & quot;). Varsayılan olarak \'Özel Formlar\' başlığı alacaktır.';
+$helptxt['CustomForm_view_text'] = 'Bu ayar, bir kullanıcıya form listesini gösteren eylem / sayfada gösterilen açıklama metnini seçmenize olanak tanır (& quot; index.php? Action = forms & quot;). Varsayılan olarak hiçbir şey gösterilmeyecek.';
 //	Help text for the edit form page.
-$helptxt['CustomForm_form_title'] = 'This is the title of the current form, it will be displayed when a user is filling out the form and when they are viewing the list of forms.';
-$helptxt['CustomForm_board_id'] = 'This drop-down menu to select the board that the form will post to. ';
-$helptxt['CustomForm_icon'] = 'This drop-down menu allows you to change the default icon for the subject line to something matching the mood or purpose of your post. ';
-$helptxt['CustomForm_permissions'] = 'This is the permissions setting for this form, to be able to view or submit a form, a user must be in one of the member groups selected.';
-$helptxt['CustomForm_subject'] = 'This is the subject/title of the post created by the form, like the Form Output area, it can contain values from the form itself.<br /><br />Example:<br />Form name: {field_name}';
-$helptxt['CustomForm_output'] = 'This is the the format in which the data a users enters in the form will be displayed in the forum post after they submit the form.<br/><br/>To actually display data a user enters in the forum post you will need to enter the title for the field between braces { }.<br /><br />Example: If the field was called \'name\' then {name} would be replaced with what the user entered in the field of the form.<br />My name is {name}.<br />Then if the user were to enter &quot;Bob&quot; in the corresponding form field, the forum post would display &quot;My name is Bob&quot;.<br /><br />If Bob chose not to enter his name into the field and it was not required then your forum post would display &quot;My name is&quot; You can also choose tho hide some forum output, by adding a second set of {} to the entire section of the form.<br />Example: {My name is {name}}<br />Instead of the forum displaying &quot;My name is&quot; it would be replaced with a blank line.';
-$helptxt['CustomForm_submit_exit'] = 'This setting allows you to select where the user is sent after the form is successfully completed.<br /><br />You can enter the following options...<br /><br /><b>board</b>: will redirect the user to the board where the form is posted (this is also the default if the field is left empty).<br /><b>forum</b>: will redirect the user to the Forum Index page.<br /><b>form</b>: will redirect the user to the list of forms available form them to fill out, if they have permission to view it.<br /><b>thanks</b>: will redirect the user to a simple page letting them know that form has been completed correctly and thanking them for completing the form.<br /><br />forum, form, and thanks, are useful if the form posts to a board the user does not have access to view.<br /><br />Alternatively you can also enter a URL like http://www.simplemachines.org and the user will be directed to that URL. This can be useful to redirect users to a custom thank you page, another specific form, a specific forum post, or anyplace else on the internet.';
-$helptxt['CustomForm_template_function'] = 'This setting allows you to chose which template function will be used for this particular form when a user is submitting it.<br /><br />There are four included template options.<br />Leave the field blank for the default option where user input boxes are on the right of the description text or enter...<br /><br /><b>left</b> will display the input boxes to the left of the description text.<br /><b>center</b> displays input boxes in the center of the page with the description text above the input boxes.<br /> <b>example</b> displays an example of how you can create customized templates for your own uses.<br /><br /><b>Attention!</b> You only need to create custom templates to change the over all look of your form submit pages.<br /><br />Custom templates can be added to the &quot;/themes/{current_theme}/CustomForm.template.php&quot; file. Please note that the template function which will be used has to be named with the format, &quot;form_template_{value for this setting}&quot;, otherwise the default &quot;form_template_submit_form()&quot; template function will be used.<br /><br />For a brief example of what you can change in a template enter &quot;example&quot; in the Custom Template Function of a form then view that form. You will see several places with the text <span style="color:red">&quot;Example of something...&quot;</span>, these are good places for you to add information to your form template without effecting the functions of the form itself.<br /><br />If you are trying to create a new template then open the &quot;CustomForm.template.php&quot; file and find &quot;Example: How to edit the custom forms template.&quot; and follow the instructions there.<br /><br /><b><span style="color:red">Warning</span></b> - It is recommended that you have a decent knowledge of HTML, XML, and PHP before you do anything too drastic.<br /><b><span style="color:red">Improper codeing will cause the Custom Form Mod and possibly your forum to break!</span></b><br />Be sure to backup your form or at least the <b>CustomForm.template.php</b> file before making any changes';
+$helptxt['CustomForm_form_title'] = 'Bu geçerli formun başlığıdır, bir kullanıcı formu doldururken ve form listesini görüntülediğinde görüntülenir.';
+$helptxt['CustomForm_board_id'] = 'Formun gönderileceği panoyu seçmek için bu açılır menü. ';
+$helptxt['CustomForm_icon'] = 'Bu açılır menü, konu satırının varsayılan simgesini postanızın ruh hali veya amaca uygun bir şekilde değiştirebilmenizi sağlar. ';
+$helptxt['CustomForm_permissions'] = 'Bu formun görüntülenmesi veya gönderilebilmesi için bu formun izin ayarlarıdır; kullanıcı, seçilen üye gruplardan birinde olmalıdır.';
+$helptxt['CustomForm_subject'] = 'Bu, form tarafından oluşturulan postanın konusudur / başlıktır, Form Çıktısı alanı gibi, formun kendisinden değerler içerebilir.<br /><br />Example:<br />Form name: {field_name}';
+$helptxt['CustomForm_output'] = 'Bir kullanıcının formda girdiği verilerin forumu gönderdikten sonra forum yazılarında görüntüleneceği biçimdir.<br/><br/>Bir kullanıcının forum mesajına girdiği verileri gerçekte göstermek için, köşeli parantezler arasındaki alanın başlığını girmeniz gerekir { }.<br /><br />Örnek: Alan \'isim\' olarak adlandırılmışsa, {name} kullanıcının alana girdiği şeyle değiştirilir. <br /> Adım {name} \'dir. <br /> Kullanıcı "Bob" kelimesini girdiler. Ilgili forma alanında forum yazısı & quot; Adım Bob\'dur & quot; yazısını görüntüleyecektir. <br /> <br /> Bob, alanına adını girmemeyi seçti ve zorunlu değilse, forum yazısı " ; Benim adım & quot; <br /> Örnek: {Adım {name}} <br /> Forumu "/ quot; yerine, & quot; ; Benim adım & quot; Boş satırla değiştirilir.';
+$helptxt['CustomForm_submit_exit'] = 'Bu ayar, form başarıyla tamamlandıktan sonra kullanıcının nereye gönderileceğini seçmenizi sağlar.<br /><br />Aşağıdaki seçenekleri girebilirsiniz ....<br /><br /><b>board</b>: kullanıcıyı formun gönderildiği panoya yönlendirir (alan boş bırakılırsa bu varsayılan olur )..<br /><b>forum</b>: Kullanıcıyı Forum Dizini sayfasına yönlendirecek.<br /><b>form</b>: Kullanıcıyı, onları görüntüleme iznine sahip oldukları taktirde dolduracakları form listesine yönlendirecektir.<br /><b>thanks</b>: Kullanıcıyı, formun doğru şekilde tamamlandığını bildiren basit bir sayfaya yönlendirecek ve formun tamamlanması için onlara teşekkür edeceğim.<br /><br />Forum, form ve teşekkürler, eğer form kullanıcının erişemediği bir board mesaj atarsa kullanışlıdır.<br /><br />Alternatif olarak, http://www.simplemachines.org gibi bir URL de girebilirsiniz ve kullanıcı bu URL\'ye yönlendirilir. Bu, kullanıcıları özel bir teşekkür sayfası, başka bir belirli form, belirli bir forum defterine veya İnternet\'teki başka herhangi bir yere yönlendirmek için kullanışlı olabilir.';
+$helptxt['CustomForm_template_function'] = 'Bu ayar, bir kullanıcı gönderirken bu form için hangi şablon işlevinin kullanılacağını seçmenize izin verir.<br /><br />Dört adet şablon seçeneği vardır.<br />Kullanıcı girdi kutularının açıklama metninin sağındaki varsayılan seçenek için alanı boş bırakın veya girin...<br /><br /><b>left</b> Açıklama metninin solundaki giriş kutularını görüntüleyecektir.<br /><b>center</b> Giriş kutularının üst kısmındaki açıklama metni ile giriş kutusunu sayfanın ortasında görüntüler.<br /> <b>example</b> Kendi kullanımlarınız için nasıl özelleştirilmiş şablonlar oluşturabileceğinize ilişkin bir örnek görüntüler.<br /><br /><b>Attention!</b> Form gönderme sayfalarının tüm görünümünü değiştirmek için yalnızca özel şablonlar oluşturmanız gerekir.
+<br /><br />Özel şablonlar eklenebilir &quot;/themes/{current_theme}/CustomForm.template.php&quot;. Kullanılacak şablon işlevinin format ile isimlendirilmesi gerektiğini lütfen unutmayın., &quot;form_template_{value for this setting}&quot;, Aksi halde varsayılan &quot;form_template_submit_form()&quot; template function will be used.<br /><br />Bir şablonda nelerin değişebileceğine ilişkin kısa bir örnek için &quot;example&quot;Bir formun Özel Şablon İşlevinde açın ve o formu görüntüleyin. Metinle birlikte birkaç yer göreceksiniz<span style="color:red">&quot;Example of something...&quot;</span>, Bunlar formun işlevlerini etkilemeden form şablonunuza bilgi eklemeniz için iyi yerlerdir.<br /><br />Yeni bir şablon oluşturmaya çalışıyorsanız, &quot;CustomForm.template.php&quot; file and find &quot;Example:Özel form şablonu nasıl düzenlenir?&quot; Ve talimatları orada takip edin.<br /><br /><b><span style="color:red">Warning</span></b> - Çok ciddi bir şey yapmadan önce HTML, XML ve PHP hakkında iyi bir bilgiye sahip olmanız önerilir.<br /><b><span style="color:red">Uygun olmayan kodlama, Özel Form Modunun ve muhtemelen forumunuzun kopmasına neden olur!</span></b><br />Herhangi bir değişiklik yapmadan önce formunuzu veya en azından <b> CustomForm.template.php </ b> dosyasını yedeklediğinizden emin olun.';
 //	Help text for the edit field page.
-$helptxt['CustomForm_field_title'] = 'This is the title that will be used by the mod to access the user input from the form. It is not displayed in the form or the final forum post.<br /><br />Note that the &quot;title&quot; field is only seen by admins and not the users, it is used to designate where the users input is displayed in the form and when a submitted form is posted in the forum. For best results keep the titles short, all lower case, and do not use special characters like # & * @ [ etc.<br /><br />Example: name, username, and user_name will work fine. The &quot;title&quot; &quot;User Name&quot; will not work. Do not use numerals as the first character of a &quot;title&quot; question_1, q_1,or the word &quot;one&quot; will work. 1, 2, 3, 1st, 2nd, 3rd will not work.<br /><br />An incorect &quot;title&quot; will cause your form to not work properly. For instance the information the user types in the form will not be displayed in the forum post or the form may not appear to users at all.';
-$helptxt['CustomForm_text'] = 'This setting allows you to change the text which a user will see when they are filling out the form.<br /><br />You can also use many standard HTML tags in the text field, <ins><a href="http://www.w3schools.com/html/html_quick.asp">W3 Schools</a></ins> provides some good tutorials on how to use HTML tags. Most of these are similar to the BBC tags you can use in forum posts except that you have to enter them between &lt; &gt; rather than [ ]';
-$helptxt['CustomForm_type'] = 'This setting allows you to set the type of field that this is displayed. Thus restricting the input that a user can submit.<br /><br /><b>Text Box (String)</b> adds a small input box allowing the user to type anything..<br /><br /><b>Large (Multiline) Text Box</b> adds a large input box allowing the user to type anything.<br /><br /><b>Text Box (Integer)</b> Will only allow the user to type whole numbers. The user can not type text, decimals, or fractions in this box. For instance if the user were to type 12.345 in the box, only 12 would displayed in their post.<br /><br /></b><b>Text Box (Float)</b> allows a user to enter <a href=http://en.wikipedia.org/wiki/Floating_point>Floating Point Values</a>. In most cases this will be used when you expect the user to enter numbers with decimals in the form.<br /><br /><b>Check box</b> will post whether the boxed was checked or not once the form is submitted to the forum. By default it will post <b>yes</b> if checked and <b>no</b> if not checked.<br /><br /><b>Selection Box</b> will allow the user to chose from various items. Enter the list of items you want separated by commas in the <b>Extra Type Parameters</b> field. The first option will be preselected unless the user selects something else.<br /><br /><b>Radio Box</b> like a Selection Box will allow the user to chose from various items. Enter the list of items you want separated by commas in the <b>Extra Type Parameters</b> field. None of the items will be preselected.<br /><br /><b>Information Box</b> allows you to display text throughout the form without requireing any user input.';
-$helptxt['CustomForm_type_vars'] = 'This field allows you to set any necessary extra paramaters to change the behavior of the field in the form and forum post depending on the type field.<br /><br /><b>Text Box Parameters</b><br /><br /><b>parse_bbc</b> In order for your users to use <ins><a href="http://wiki.simplemachines.org/smf/Basic_Bulletin_Board_Codes" target="_blank">BBCodes</a></ins> in their entry you must enter parse_bbc in the Extra Type Parameters field, otherwise BBC will not display properly in the forum post.<br /><br /><b>size=(int)</b> This will restrict the number of characters a user can type in their entry.<br /><br />Example: If you were to enter size=8 in the field then the users entry would be limited to 8 characters. So if the user types 1234567890 in the field, only 12345678 will be displayed in the forum post.<br /><br /><b>default=(str)</b> This allows you to set default text that will display in the forum post if the user fails to fill out the entry.<br /><br />Example: If you enter &quot;default=User did not enter any data in this field.&quot;, in the Extra Type Parameters field and the user does not enter any input in the filed when filling out the form then &quot;User did not enter any data in this field.&quot; will automatically be displayed in the forum post.<br /><br /><b>required</b> You can also enter &quot;required&quot; in the Extra Type Parameters field which will force the user to enter valid data for this field before the form will submit.<br /><br />The fields are denoted in the form by an * and a note by the submit button stating * Required Fields. If the user fails enter data in those fields the form will return with the <b><span style="color:red">*</span></b>\'s displayed in <b><span style="color:red">red</span></b>, reminding the user that those fields must be filled out in order for them to be able to submit the form.<br /><br /><b>Select Box or Radio Box</b><br /><br />A Select Box or Radio Box, will allow you to put a series of options (separated by commas \' ), for the user to select.<br /><br />Example: Item 1, Item 2, Item 3, Item 4, and so on.<br /><br />To Require a user to use a Selection Box or Radio Box enter &quot;required&quot; as the first selection. Entering &quot;required&quot; elsewhere in the series of options may cause your form not to work properly.<br /><br />Example: required, Item 1, Item 2, Item 3, Item 4 <br /><br /><b>Check Box</b><br /><br />By default if you leave the Extra Type Parameters field empty, a check box will post <b>Yes</b> if the box is checked in the form or <b>No</b> if it was not.<br /><br />Alternatively a check box will allow you to put two strings, separated by a comma, the first string will be shown if the check box is checked while the second will be shown if the check box is not.<br /><br />Example: The check box was checked.,The check box was not checked.<br /><br />You may also use the &quot;required&quot; parameter to force the user to check the box before they submit a form. By default , if you just enter &quot;required&quot; in the Extra Type Parameters field, the check box will simply display <b>required</b>, in the forum post. You may also have it display something of your choosing in the forum post.<br /><br />Example: I was required to check this box.,required';
+$helptxt['CustomForm_field_title'] = 'Bu, formdan kullanıcı girdisine erişmek için mod tarafından kullanılacak başlıktır. Formda veya son forum mesajında gösterilmez.<br /><br />Not: &quot;title&quot; Alanı yalnızca kullanıcılar tarafından görülen kullanıcılar tarafından görülür; kullanıcı girişinin forma görüntülendiği yeri ve gönderilen formu forma gönderildiğinde kullanılacaktır. En iyi sonuçları almak için başlıklar kısa tutun, Tüm küçük harfler gibi ve özel karakterler kullanmayın # & * @ [ etc.<br /><br />Example: name, username, and user_name will work fine. The &quot;title&quot; &quot;User Name&quot; çalışmayacak. Bir rakamın ilk karakteri olarak sayıları kullanmayın. &quot;title&quot; question_1, q_1,or the word &quot;one&quot; will work. 1, 2, 3, 1st, 2nd, 3rd çalışmayacak.<br /><br />Bir oluşum "başlık" Formunuzun düzgün çalışmamasına neden olur. Örneğin, kullanıcının formda girdiği bilgiler forum mesajında görüntülenmez veya form kullanıcılara hiç görünmez..';
+$helptxt['CustomForm_text'] = 'Bu ayar, bir kullanıcının formu doldururken göreceği metni değiştirmenize olanak tanır.<br /><br />Metin alanına pek çok standart HTML etiketi de kullanabilirsiniz, <ins><a href="http://www.w3schools.com/html/html_quick.asp">W3 Schools</a></ins> HTML etiketlerinin nasıl kullanılacağıyla ilgili bazı iyi eğitimler sağlar. Bunların çoğu, forum yayınlarında kullanabileceğiniz BBC etiketlerine benzer; ancak &lt; &gt; yerine [ ]';
+$helptxt['CustomForm_type'] = 'Bu ayar, görüntülenen alan türünü ayarlamanızı sağlar. Dolayısıyla, bir kullanıcının sunabileceği girdiyi kısıtlamak.<br /><br /><b>Metin kutusu (String)</b> Kullanıcının herhangi bir şeyi yazmasına izin veren küçük bir giriş kutusu ekler..<br /><br /><b>Büyük (Multiline) Metin kutusu</b> Kullanıcının bir şey yazmasına izin veren geniş bir giriş kutusu ekler.<br /><br /><b>Metin kutusu (Integer)</b> Yalnızca kullanıcının tam sayıları yazmasına izin verir. Kullanıcı, bu kutuya metin, ondalık sayı veya kesir yazamaz. Örneğin, kullanıcı kutuya 12.345 yazacak olsaydı, yayınlarında yalnızca 12 görüntülenirdi.<br /><br /></b><b>Metin kutusu (Float)</b> Bir kullanıcının <a href=http://en.wikipedia.org/wiki/Floating_point> Yüzen Nokta Değerleri </a> girmesine izin verir. Çoğu durumda, kullanıcının formda ondalık sayıları girmesini beklediğinizde bu seçenek kullanılacaktır.<br /><br /><b>onay kutusu</b> Form foruma gönderildikten sonra kutunun işaretlenip onaylanmadığını yazacaktır. Varsayılan olarak, işaretlenmişse <b> evet </ b> ve işaretlenmediyse <b> hayır </ b> gönderecektir.<br /><br /><b>Seçim Kutusu</b> Kullanıcının çeşitli öğeler arasından seçim yapmasına izin verir. <B> Ekstra Tür Parametreleri </ b> alanına virgülle ayrılmış öğeler listesini girin. Kullanıcı başka bir şey seçmedikçe ilk seçenek önceden seçilecektir.<br /><br /><b>Radio kutusu</b> Bir Seçim Kutusu gibi kullanıcının çeşitli öğelerden seçim yapmasına izin verir. <B> Ekstra Tür Parametreleri </ b> alanına virgülle ayrılmış öğeler listesini girin. Hiçbir öğe önceden seçilmeyecektir. <br /> <br /> <b> Bilgi Kutusu </ b> herhangi bir kullanıcı girişi gerektirmeden form boyunca metin görüntülemenize olanak tanır.';
+$helptxt['CustomForm_type_vars'] = 'Bu alan, alana bağlı olarak form ve forumdaki alanın davranışını değiştirmek için gerekli tüm parametreleri ayarlamanızı sağlar.<br /><br /><b>Metin kutusu Parameters</b><br /><br /><b>parse_bbc</b> Kullanıcılarınızın kullanması için <ins><a href="http://wiki.simplemachines.org/smf/Basic_Bulletin_Board_Codes" target="_blank">BBCodes</a></ins> Onların girişinde parse_bbc Ekstra Tip Parametreleri alanına girmelisiniz, aksi takdirde BBC forum mesajında düzgün görüntülenmez.<br /><br /><b>size=(int)</b> Bu, bir kullanıcının girişinde yazabilecek karakter sayısını sınırlar.<br /><br />Example: Alana size = 8 girerseniz, kullanıcılar girişi 8 karakterle sınırlı olacaktır. Kullanıcı alana 1234567890 yazarsa forum yazısında yalnızca 12345678 görüntülenir.<br /><br /><b>default=(str)</b> Bu, kullanıcı girişi doldurmazsa forum yazısında görünecek varsayılan metni ayarlamanızı sağlar.<br /><br />Example:  &quot;default=Kullanıcı bu alana herhangi bir veri girmedi&quot;, Ekstra Tip Parametreleri alanına girerseniz ve kullanıcı formun doldurulması sırasında dosyaya herhangi bir girdi girmezse &quot;Kullanıcı bu alana herhangi bir veri girmedi.&quot;Forum başlığında otomatik olarak görüntülenecektir..<br /><br /><b>required</b> Ayrıca girebilirsiniz &quot;required&quot; Formun gönderilmesinden önce kullanıcıya bu alan için geçerli verileri girmeye zorlayacak Ekstra Tür Parametreleri alanına.<br /><br />Alanlar bir * ile formda, teslimat düğmesiyle bir * Not Gerekli Alanlar olarak belirir. Kullanıcı bu alanlara veri girmekte başarısız olursa, form,<b><span style="color:red">*</span></b>\'s içinde görüntülenen <b><span style="color:red">red</span></b>, Formun gönderilebilmesi için kullanıcılara bu alanların doldurulması gerektiğini hatırlatmak.<br /><br /><b>Seçim Kutusu ve Radio kutusu</b><br /><br />Bir Seçme Kutusu veya Radio Kutusu, bir dizi seçenek koymanıza olanak tanır (virgüllerle ayrılmış \' ), Kullanıcının seçmesi için.<br /><br />Example: Item 1, Item 2, Item 3, Item 4, and so on.<br /><br />Bir kullanıcının Seçim Kutusu veya Radio Kutusu girmesini zorunlu kılmak içinr &quot;required&quot; Ilk seçim olarak. Entering &quot;required&quot; Seçenekler dizisinin herhangi bir yerinde, formunuzun düzgün çalışmamasına neden olabilir.<br /><br />Example: required, Item 1, Item 2, Item 3, Item 4 <br /><br /><b>Onay Kutusu</b><br /><br />Varsayılan olarak, Ekstra Tür Parametreleri alanını boş bırakırsanız, kutu formda kontrol edilirse <b> Evet </ b> veya yoksa <b> Hayır </ b> kutusu bir onay kutusu gönderecektir.<br /><br />Alternatif olarak bir onay kutusu, virgülle ayrılmış iki dizeyi koymanıza izin verir; onay kutusu işaretlenirse ilk dizge görüntülenir; onay kutusu işaretlenmezse ikinci dizge gösterilir..<br /><br />Example: Onay kutusu işaretlendi. Onay kutusu işaretlenmedi.<br /><br />Ayrıca kullanabilirsiniz &quot;required&quot; pBir form göndermeden önce kullanıcıyı kutuyu işaretlemeye zorlamak için bir parametre kullanın. Varsayılan olarak, yalnızca &quot;required&quot; Ekstra Tür Parametreleri alanında, onay kutusu forumun postasında yalnızca <b> gerekli </ b>  görüntüleyecektir. Ayrıca forumun postasında sizin seçtiğiniz şeyleri gösterebilirsiniz.<br /><br />Example: Bu kutuyu işaretlemek gerekiyordu., Gerekli';
 //	**End Custom Form Mod Help Text**
 ]]></add>
 		</operation>
@@ -96,58 +105,62 @@ $helptxt['CustomForm_type_vars'] = 'This field allows you to set any necessary e
 		<operation error="skip">
 			<search position="end" />
 			<add><![CDATA[
-//	**Start Custom Form Mod Text**
+//	**Start Özel Form Mod**
+/**
+ *  @türkçe çeviri snrj 
+ *  @http://smf.konusal.com/
+ */
 //	Header and General text for the Custom Form Mod settings area.
-$txt['CustomForm_generalsettings_heading'] = 'Custom Form Mod Settings';
-$txt['CustomForm_tabheader'] = 'Custom Forms';
+$txt['CustomForm_generalsettings_heading'] = 'Özel Form Mod Ayarları';
+$txt['CustomForm_tabheader'] = 'Özel Formlar';
 $txt['CustomForm_form'] = 'Form';
-$txt['CustomForm_field'] = 'Field';
-$txt['CustomForm_view_title'] = 'View Forms Title';
-$txt['CustomForm_view_text'] = 'View Forms Text';
-$txt['CustomForm_view_perms'] = 'Form View Page Permissions';
+$txt['CustomForm_field'] = 'Alan';
+$txt['CustomForm_view_title'] = 'Form Başlığını Görüntüle';
+$txt['CustomForm_view_text'] = 'Form Metinlerini Görüntüle';
+$txt['CustomForm_view_perms'] = 'Form Görünümü Sayfası İzinleri';
 
 //	Stuff for the forms action
-$txt['CustomForm_submit'] = 'Submit Form';
-$txt['CustomForm_required'] = 'Required Fields';
+$txt['CustomForm_submit'] = 'Formu gönder';
+$txt['CustomForm_required'] = 'Zorunlu Alanlar';
 
 //	Junk for the list areas.
-$txt['CustomForm_listheading_fields'] = 'Form Fields';
-$txt['CustomForm_add_form'] = 'Add New Form';
-$txt['CustomForm_add_field'] = 'Add New Field';
-$txt['CustomForm_edit'] = 'Edit';
-$txt['CustomForm_delete_warning'] = 'Are you sure you want to delete this?';
-$txt['CustomForm_list_noelements'] = 'This list is currently empty.';
-$txt['CustomForm_moveup'] = 'Move Up';
-$txt['CustomForm_movedown'] = 'Move Down';
+$txt['CustomForm_listheading_fields'] = 'Form Alanları';
+$txt['CustomForm_add_form'] = 'Yeni Form Ekle';
+$txt['CustomForm_add_field'] = 'Yeni Alan Ekle';
+$txt['CustomForm_edit'] = 'Düzenle';
+$txt['CustomForm_delete_warning'] = 'Bunu silmek istediğinizden emin misiniz?';
+$txt['CustomForm_list_noelements'] = 'Bu liste boş.';
+$txt['CustomForm_moveup'] = 'Yukarı Taşı';
+$txt['CustomForm_movedown'] = 'Aşağı Taşı';
 
 //	Text for the settings pages.
-$txt['CustomForm_text'] = 'Text';
-$txt['CustomForm_type'] = 'Type';
-$txt['CustomForm_type_vars'] = 'Extra Type Parameters';
-$txt['CustomForm_output'] = 'Form Output';
+$txt['CustomForm_text'] = 'Metin';
+$txt['CustomForm_type'] = 'Tip';
+$txt['CustomForm_type_vars'] = 'Ekstra Tip Parametreleri';
+$txt['CustomForm_output'] = 'Form Çıktısı';
 $txt['CustomForm_board_id'] = 'Board';
-$txt['CustomForm_template_function'] = 'Custom Template Function';
-$txt['CustomForm_exit'] = 'Submit Redirect';
+$txt['CustomForm_template_function'] = 'Özel Şablon İşlevi';
+$txt['CustomForm_exit'] = 'Yönlendirmeyi Gönder';
 
 //  Redirection Text
 $txt['CustomForm_forum'] = 'Forum';
-$txt['CustomForm_topic'] = 'Topic';
+$txt['CustomForm_topic'] = 'Konu';
 $txt['CustomForm_board'] = 'Board (default)';
-$txt['CustomForm_thanks'] = 'Thank You';
-$txt['CustomForm_list'] = 'Form List';
+$txt['CustomForm_thanks'] = 'Teşekkür ederim';
+$txt['CustomForm_list'] = 'Form Listesi';
 
 //  Text for the thankyou page
-$txt['CustomForm_thankyou'] = 'The information you entered has been submited.<br /><br />Thank you for taking the time to complete this form.<br /><br />You may now return to the Forum or view the Form List, if available.';
+$txt['CustomForm_thankyou'] = 'Girmiş olduğunuz bilgi gönderildi. <br /> <br /> Bu formu tamamlamak için zaman ayırdığınız için teşekkür ederiz. <br /> <br /> Artık Foruma geri dönebilir veya mevcutsa Form Listesini görüntüleyebilirsiniz.';
 
 //	Options for the selectbox on the field edit page.
-$txt['CustomForm_checkbox'] = 'Check Box';
-$txt['CustomForm_selectionbox'] = 'Selection Box';
-$txt['CustomForm_textbox'] = 'Text Box (String)';
-$txt['CustomForm_large_textbox'] = 'Large (Multiline) Text Box';
-$txt['CustomForm_int'] = 'Text Box (Integer)';
-$txt['CustomForm_float'] = 'Text Box (Float)';
-$txt['CustomForm_radiobox'] = 'Radio Box';
-$txt['CustomForm_infoboxa'] = 'Info Box';
+$txt['CustomForm_checkbox'] = 'Onay Kutusu';
+$txt['CustomForm_selectionbox'] = 'Seçim Kutusu';
+$txt['CustomForm_textbox'] = 'Metin kutusu (String)';
+$txt['CustomForm_large_textbox'] = 'Büyük (Multiline) Metin Kutusu';
+$txt['CustomForm_int'] = 'Metin kutusu (Integer)';
+$txt['CustomForm_float'] = 'Metin kutusu (Float)';
+$txt['CustomForm_radiobox'] = 'Radio Kutusu';
+$txt['CustomForm_infoboxa'] = 'Bilgi Kutusu';
 //	**End Custom Form Mod Text**
 ]]></add>
 		</operation>
@@ -159,24 +172,29 @@ $helptxt['manage_boards'] = '
 ]]></search>
 			<add><![CDATA[
 //	**Start Custom Form Mod Help Text**
+/**
+ *  @türkçe çeviri snrj 
+ *  @http://smf.konusal.com/
+ */
 //	Help text for the general settings page.
-$helptxt['CustomForm_view_perms'] = 'This setting allows you to restrict the member groups that can see the list of the forms which they can access (At &quot;index.php?action=form&quot;). Note that even if they can see they list, they cannot see or use any forms which they do not have the permissions for.';
-$helptxt['CustomForm_view_title'] = 'This setting allows you to chose the title for the action/page that shows the list of forms to a user (at &quot;index.php?action=forms&quot;).  By default \'Custom Forms\' will be the title.';
-$helptxt['CustomForm_view_text'] = 'This setting allows you to chose the explanation text shown for the action/page that shows the list of forms to a user (at &quot;index.php?action=forms&quot;). By default nothing will be shown.';
+$helptxt['CustomForm_view_perms'] = 'Bu ayar, erişebildikleri formların listesini görebilen üye gruplarını kısıtlamanıza izin verir ( "index.php? Action = form" adresinde). Onların listede olduklarını bile olsa, izinleri olmadığı herhangi bir formu göremez veya kullanamazlar.';
+$helptxt['CustomForm_view_title'] = 'Bu ayar, bir kullanıcıya formların listesini gösteren işlem / sayfa başlığını seçmenizi sağlar (& quot; index.php? Action = forms & quot;). Varsayılan olarak \'Özel Formlar\' başlığı alacaktır.';
+$helptxt['CustomForm_view_text'] = 'Bu ayar, bir kullanıcıya form listesini gösteren eylem / sayfada gösterilen açıklama metnini seçmenize olanak tanır (& quot; index.php? Action = forms & quot;). Varsayılan olarak hiçbir şey gösterilmeyecek.';
 //	Help text for the edit form page.
-$helptxt['CustomForm_form_title'] = 'This is the title of the current form, it will be displayed when a user is filling out the form and when they are viewing the list of forms.';
-$helptxt['CustomForm_board_id'] = 'This drop-down menu to select the board that the form will post to. ';
-$helptxt['CustomForm_icon'] = 'This drop-down menu allows you to change the default icon for the subject line to something matching the mood or purpose of your post. ';
-$helptxt['CustomForm_permissions'] = 'This is the permissions setting for this form, to be able to view or submit a form, a user must be in one of the member groups selected.';
-$helptxt['CustomForm_subject'] = 'This is the subject/title of the post created by the form, like the Form Output area, it can contain values from the form itself.<br /><br />Example:<br />Form name: {field_name}';
-$helptxt['CustomForm_output'] = 'This is the the format in which the data a users enters in the form will be displayed in the forum post after they submit the form.<br/><br/>To actually display data a user enters in the forum post you will need to enter the title for the field between braces { }.<br /><br />Example: If the field was called \'name\' then {name} would be replaced with what the user entered in the field of the form.<br />My name is {name}.<br />Then if the user were to enter &quot;Bob&quot; in the corresponding form field, the forum post would display &quot;My name is Bob&quot;.<br /><br />If Bob chose not to enter his name into the field and it was not required then your forum post would display &quot;My name is&quot; You can also choose tho hide some forum output, by adding a second set of {} to the entire section of the form.<br />Example: {My name is {name}}<br />Instead of the forum displaying &quot;My name is&quot; it would be replaced with a blank line.';
-$helptxt['CustomForm_submit_exit'] = 'This setting allows you to select where the user is sent after the form is successfully completed.<br /><br />You can enter the following options...<br /><br /><b>board</b>: will redirect the user to the board where the form is posted (this is also the default if the field is left empty).<br /><b>forum</b>: will redirect the user to the Forum Index page.<br /><b>form</b>: will redirect the user to the list of forms available form them to fill out, if they have permission to view it.<br /><b>thanks</b>: will redirect the user to a simple page letting them know that form has been completed correctly and thanking them for completing the form.<br /><br />forum, form, and thanks, are useful if the form posts to a board the user does not have access to view.<br /><br />Alternatively you can also enter a URL like http://www.simplemachines.org and the user will be directed to that URL. This can be useful to redirect users to a custom thank you page, another specific form, a specific forum post, or anyplace else on the internet.';
-$helptxt['CustomForm_template_function'] = 'This setting allows you to chose which template function will be used for this particular form when a user is submitting it.<br /><br />There are four included template options.<br />Leave the field blank for the default option where user input boxes are on the right of the description text or enter...<br /><br /><b>left</b> will display the input boxes to the left of the description text.<br /><b>center</b> displays input boxes in the center of the page with the description text above the input boxes.<br /> <b>example</b> displays an example of how you can create customized templates for your own uses.<br /><br /><b>Attention!</b> You only need to create custom templates to change the over all look of your form submit pages.<br /><br />Custom templates can be added to the &quot;/themes/{current_theme}/CustomForm.template.php&quot; file. Please note that the template function which will be used has to be named with the format, &quot;form_template_{value for this setting}&quot;, otherwise the default &quot;form_template_submit_form()&quot; template function will be used.<br /><br />For a brief example of what you can change in a template enter &quot;example&quot; in the Custom Template Function of a form then view that form. You will see several places with the text <span style="color:red">&quot;Example of something...&quot;</span>, these are good places for you to add information to your form template without effecting the functions of the form itself.<br /><br />If you are trying to create a new template then open the &quot;CustomForm.template.php&quot; file and find &quot;Example: How to edit the custom forms template.&quot; and follow the instructions there.<br /><br /><b><span style="color:red">Warning</span></b> - It is recommended that you have a decent knowledge of HTML, XML, and PHP before you do anything too drastic.<br /><b><span style="color:red">Improper codeing will cause the Custom Form Mod and possibly your forum to break!</span></b><br />Be sure to backup your form or at least the <b>CustomForm.template.php</b> file before making any changes';
+$helptxt['CustomForm_form_title'] = 'Bu geçerli formun başlığıdır, bir kullanıcı formu doldururken ve form listesini görüntülediğinde görüntülenir.';
+$helptxt['CustomForm_board_id'] = 'Formun gönderileceği panoyu seçmek için bu açılır menü. ';
+$helptxt['CustomForm_icon'] = 'Bu açılır menü, konu satırının varsayılan simgesini postanızın ruh hali veya amaca uygun bir şekilde değiştirebilmenizi sağlar. ';
+$helptxt['CustomForm_permissions'] = 'Bu formun görüntülenmesi veya gönderilebilmesi için bu formun izin ayarlarıdır; kullanıcı, seçilen üye gruplardan birinde olmalıdır.';
+$helptxt['CustomForm_subject'] = 'Bu, form tarafından oluşturulan postanın konusudur / başlıktır, Form Çıktısı alanı gibi, formun kendisinden değerler içerebilir.<br /><br />Example:<br />Form name: {field_name}';
+$helptxt['CustomForm_output'] = 'Bir kullanıcının formda girdiği verilerin forumu gönderdikten sonra forum yazılarında görüntüleneceği biçimdir.<br/><br/>Bir kullanıcının forum mesajına girdiği verileri gerçekte göstermek için, köşeli parantezler arasındaki alanın başlığını girmeniz gerekir { }.<br /><br />Örnek: Alan \'isim\' olarak adlandırılmışsa, {name} kullanıcının alana girdiği şeyle değiştirilir. <br /> Adım {name} \'dir. <br /> Kullanıcı "Bob" kelimesini girdiler. Ilgili forma alanında forum yazısı & quot; Adım Bob\'dur & quot; yazısını görüntüleyecektir. <br /> <br /> Bob, alanına adını girmemeyi seçti ve zorunlu değilse, forum yazısı " ; Benim adım & quot; <br /> Örnek: {Adım {name}} <br /> Forumu "/ quot; yerine, & quot; ; Benim adım & quot; Boş satırla değiştirilir.';
+$helptxt['CustomForm_submit_exit'] = 'Bu ayar, form başarıyla tamamlandıktan sonra kullanıcının nereye gönderileceğini seçmenizi sağlar.<br /><br />Aşağıdaki seçenekleri girebilirsiniz ....<br /><br /><b>board</b>: kullanıcıyı formun gönderildiği panoya yönlendirir (alan boş bırakılırsa bu varsayılan olur )..<br /><b>forum</b>: Kullanıcıyı Forum Dizini sayfasına yönlendirecek.<br /><b>form</b>: Kullanıcıyı, onları görüntüleme iznine sahip oldukları taktirde dolduracakları form listesine yönlendirecektir.<br /><b>thanks</b>: Kullanıcıyı, formun doğru şekilde tamamlandığını bildiren basit bir sayfaya yönlendirecek ve formun tamamlanması için onlara teşekkür edeceğim.<br /><br />Forum, form ve teşekkürler, eğer form kullanıcının erişemediği bir board mesaj atarsa kullanışlıdır.<br /><br />Alternatif olarak, http://www.simplemachines.org gibi bir URL de girebilirsiniz ve kullanıcı bu URL\'ye yönlendirilir. Bu, kullanıcıları özel bir teşekkür sayfası, başka bir belirli form, belirli bir forum defterine veya İnternet\'teki başka herhangi bir yere yönlendirmek için kullanışlı olabilir.';
+$helptxt['CustomForm_template_function'] = 'Bu ayar, bir kullanıcı gönderirken bu form için hangi şablon işlevinin kullanılacağını seçmenize izin verir.<br /><br />Dört adet şablon seçeneği vardır.<br />Kullanıcı girdi kutularının açıklama metninin sağındaki varsayılan seçenek için alanı boş bırakın veya girin...<br /><br /><b>left</b> Açıklama metninin solundaki giriş kutularını görüntüleyecektir.<br /><b>center</b> Giriş kutularının üst kısmındaki açıklama metni ile giriş kutusunu sayfanın ortasında görüntüler.<br /> <b>example</b> Kendi kullanımlarınız için nasıl özelleştirilmiş şablonlar oluşturabileceğinize ilişkin bir örnek görüntüler.<br /><br /><b>Attention!</b> Form gönderme sayfalarının tüm görünümünü değiştirmek için yalnızca özel şablonlar oluşturmanız gerekir.
+<br /><br />Özel şablonlar eklenebilir &quot;/themes/{current_theme}/CustomForm.template.php&quot;. Kullanılacak şablon işlevinin format ile isimlendirilmesi gerektiğini lütfen unutmayın., &quot;form_template_{value for this setting}&quot;, Aksi halde varsayılan &quot;form_template_submit_form()&quot; template function will be used.<br /><br />Bir şablonda nelerin değişebileceğine ilişkin kısa bir örnek için &quot;example&quot;Bir formun Özel Şablon İşlevinde açın ve o formu görüntüleyin. Metinle birlikte birkaç yer göreceksiniz<span style="color:red">&quot;Example of something...&quot;</span>, Bunlar formun işlevlerini etkilemeden form şablonunuza bilgi eklemeniz için iyi yerlerdir.<br /><br />Yeni bir şablon oluşturmaya çalışıyorsanız, &quot;CustomForm.template.php&quot; file and find &quot;Example:Özel form şablonu nasıl düzenlenir?&quot; Ve talimatları orada takip edin.<br /><br /><b><span style="color:red">Warning</span></b> - Çok ciddi bir şey yapmadan önce HTML, XML ve PHP hakkında iyi bir bilgiye sahip olmanız önerilir.<br /><b><span style="color:red">Uygun olmayan kodlama, Özel Form Modunun ve muhtemelen forumunuzun kopmasına neden olur!</span></b><br />Herhangi bir değişiklik yapmadan önce formunuzu veya en azından <b> CustomForm.template.php </ b> dosyasını yedeklediğinizden emin olun.';
 //	Help text for the edit field page.
-$helptxt['CustomForm_field_title'] = 'This is the title that will be used by the mod to access the user input from the form. It is not displayed in the form or the final forum post.<br /><br />Note that the &quot;title&quot; field is only seen by admins and not the users, it is used to designate where the users input is displayed in the form and when a submitted form is posted in the forum. For best results keep the titles short, all lower case, and do not use special characters like # & * @ [ etc.<br /><br />Example: name, username, and user_name will work fine. The &quot;title&quot; &quot;User Name&quot; will not work. Do not use numerals as the first character of a &quot;title&quot; question_1, q_1,or the word &quot;one&quot; will work. 1, 2, 3, 1st, 2nd, 3rd will not work.<br /><br />An incorect &quot;title&quot; will cause your form to not work properly. For instance the information the user types in the form will not be displayed in the forum post or the form may not appear to users at all.';
-$helptxt['CustomForm_text'] = 'This setting allows you to change the text which a user will see when they are filling out the form.<br /><br />You can also use many standard HTML tags in the text field, <ins><a href="http://www.w3schools.com/html/html_quick.asp">W3 Schools</a></ins> provides some good tutorials on how to use HTML tags. Most of these are similar to the BBC tags you can use in forum posts except that you have to enter them between &lt; &gt; rather than [ ]';
-$helptxt['CustomForm_type'] = 'This setting allows you to set the type of field that this is displayed. Thus restricting the input that a user can submit.<br /><br /><b>Text Box (String)</b> adds a small input box allowing the user to type anything..<br /><br /><b>Large (Multiline) Text Box</b> adds a large input box allowing the user to type anything.<br /><br /><b>Text Box (Integer)</b> Will only allow the user to type whole numbers. The user can not type text, decimals, or fractions in this box. For instance if the user were to type 12.345 in the box, only 12 would displayed in their post.<br /><br /></b><b>Text Box (Float)</b> allows a user to enter <a href=http://en.wikipedia.org/wiki/Floating_point>Floating Point Values</a>. In most cases this will be used when you expect the user to enter numbers with decimals in the form.<br /><br /><b>Check box</b> will post whether the boxed was checked or not once the form is submitted to the forum. By default it will post <b>yes</b> if checked and <b>no</b> if not checked.<br /><br /><b>Selection Box</b> will allow the user to chose from various items. Enter the list of items you want separated by commas in the <b>Extra Type Parameters</b> field. The first option will be preselected unless the user selects something else.<br /><br /><b>Radio Box</b> like a Selection Box will allow the user to chose from various items. Enter the list of items you want separated by commas in the <b>Extra Type Parameters</b> field. None of the items will be preselected.<br /><br /><b>Information Box</b> allows you to display text throughout the form without requireing any user input.';
-$helptxt['CustomForm_type_vars'] = 'This field allows you to set any necessary extra paramaters to change the behavior of the field in the form and forum post depending on the type field.<br /><br /><b>Text Box Parameters</b><br /><br /><b>parse_bbc</b> In order for your users to use <ins><a href="http://wiki.simplemachines.org/smf/Basic_Bulletin_Board_Codes" target="_blank">BBCodes</a></ins> in their entry you must enter parse_bbc in the Extra Type Parameters field, otherwise BBC will not display properly in the forum post.<br /><br /><b>size=(int)</b> This will restrict the number of characters a user can type in their entry.<br /><br />Example: If you were to enter size=8 in the field then the users entry would be limited to 8 characters. So if the user types 1234567890 in the field, only 12345678 will be displayed in the forum post.<br /><br /><b>default=(str)</b> This allows you to set default text that will display in the forum post if the user fails to fill out the entry.<br /><br />Example: If you enter &quot;default=User did not enter any data in this field.&quot;, in the Extra Type Parameters field and the user does not enter any input in the filed when filling out the form then &quot;User did not enter any data in this field.&quot; will automatically be displayed in the forum post.<br /><br /><b>required</b> You can also enter &quot;required&quot; in the Extra Type Parameters field which will force the user to enter valid data for this field before the form will submit.<br /><br />The fields are denoted in the form by an * and a note by the submit button stating * Required Fields. If the user fails enter data in those fields the form will return with the <b><span style="color:red">*</span></b>\'s displayed in <b><span style="color:red">red</span></b>, reminding the user that those fields must be filled out in order for them to be able to submit the form.<br /><br /><b>Select Box or Radio Box</b><br /><br />A Select Box or Radio Box, will allow you to put a series of options (separated by commas \' ), for the user to select.<br /><br />Example: Item 1, Item 2, Item 3, Item 4, and so on.<br /><br />To Require a user to use a Selection Box or Radio Box enter &quot;required&quot; as the first selection. Entering &quot;required&quot; elsewhere in the series of options may cause your form not to work properly.<br /><br />Example: required, Item 1, Item 2, Item 3, Item 4 <br /><br /><b>Check Box</b><br /><br />By default if you leave the Extra Type Parameters field empty, a check box will post <b>Yes</b> if the box is checked in the form or <b>No</b> if it was not.<br /><br />Alternatively a check box will allow you to put two strings, separated by a comma, the first string will be shown if the check box is checked while the second will be shown if the check box is not.<br /><br />Example: The check box was checked.,The check box was not checked.<br /><br />You may also use the &quot;required&quot; parameter to force the user to check the box before they submit a form. By default , if you just enter &quot;required&quot; in the Extra Type Parameters field, the check box will simply display <b>required</b>, in the forum post. You may also have it display something of your choosing in the forum post.<br /><br />Example: I was required to check this box.,required';
+$helptxt['CustomForm_field_title'] = 'Bu, formdan kullanıcı girdisine erişmek için mod tarafından kullanılacak başlıktır. Formda veya son forum mesajında gösterilmez.<br /><br />Not: &quot;title&quot; Alanı yalnızca kullanıcılar tarafından görülen kullanıcılar tarafından görülür; kullanıcı girişinin forma görüntülendiği yeri ve gönderilen formu forma gönderildiğinde kullanılacaktır. En iyi sonuçları almak için başlıklar kısa tutun, Tüm küçük harfler gibi ve özel karakterler kullanmayın # & * @ [ etc.<br /><br />Example: name, username, and user_name will work fine. The &quot;title&quot; &quot;User Name&quot; çalışmayacak. Bir rakamın ilk karakteri olarak sayıları kullanmayın. &quot;title&quot; question_1, q_1,or the word &quot;one&quot; will work. 1, 2, 3, 1st, 2nd, 3rd çalışmayacak.<br /><br />Bir oluşum "başlık" Formunuzun düzgün çalışmamasına neden olur. Örneğin, kullanıcının formda girdiği bilgiler forum mesajında görüntülenmez veya form kullanıcılara hiç görünmez..';
+$helptxt['CustomForm_text'] = 'Bu ayar, bir kullanıcının formu doldururken göreceği metni değiştirmenize olanak tanır.<br /><br />Metin alanına pek çok standart HTML etiketi de kullanabilirsiniz, <ins><a href="http://www.w3schools.com/html/html_quick.asp">W3 Schools</a></ins> HTML etiketlerinin nasıl kullanılacağıyla ilgili bazı iyi eğitimler sağlar. Bunların çoğu, forum yayınlarında kullanabileceğiniz BBC etiketlerine benzer; ancak &lt; &gt; yerine [ ]';
+$helptxt['CustomForm_type'] = 'Bu ayar, görüntülenen alan türünü ayarlamanızı sağlar. Dolayısıyla, bir kullanıcının sunabileceği girdiyi kısıtlamak.<br /><br /><b>Metin kutusu (String)</b> Kullanıcının herhangi bir şeyi yazmasına izin veren küçük bir giriş kutusu ekler..<br /><br /><b>Büyük (Multiline) Metin kutusu</b> Kullanıcının bir şey yazmasına izin veren geniş bir giriş kutusu ekler.<br /><br /><b>Metin kutusu (Integer)</b> Yalnızca kullanıcının tam sayıları yazmasına izin verir. Kullanıcı, bu kutuya metin, ondalık sayı veya kesir yazamaz. Örneğin, kullanıcı kutuya 12.345 yazacak olsaydı, yayınlarında yalnızca 12 görüntülenirdi.<br /><br /></b><b>Metin kutusu (Float)</b> Bir kullanıcının <a href=http://en.wikipedia.org/wiki/Floating_point> Yüzen Nokta Değerleri </a> girmesine izin verir. Çoğu durumda, kullanıcının formda ondalık sayıları girmesini beklediğinizde bu seçenek kullanılacaktır.<br /><br /><b>onay kutusu</b> Form foruma gönderildikten sonra kutunun işaretlenip onaylanmadığını yazacaktır. Varsayılan olarak, işaretlenmişse <b> evet </ b> ve işaretlenmediyse <b> hayır </ b> gönderecektir.<br /><br /><b>Seçim Kutusu</b> Kullanıcının çeşitli öğeler arasından seçim yapmasına izin verir. <B> Ekstra Tür Parametreleri </ b> alanına virgülle ayrılmış öğeler listesini girin. Kullanıcı başka bir şey seçmedikçe ilk seçenek önceden seçilecektir.<br /><br /><b>Radio kutusu</b> Bir Seçim Kutusu gibi kullanıcının çeşitli öğelerden seçim yapmasına izin verir. <B> Ekstra Tür Parametreleri </ b> alanına virgülle ayrılmış öğeler listesini girin. Hiçbir öğe önceden seçilmeyecektir. <br /> <br /> <b> Bilgi Kutusu </ b> herhangi bir kullanıcı girişi gerektirmeden form boyunca metin görüntülemenize olanak tanır.';
+$helptxt['CustomForm_type_vars'] = 'Bu alan, alana bağlı olarak form ve forumdaki alanın davranışını değiştirmek için gerekli tüm parametreleri ayarlamanızı sağlar.<br /><br /><b>Metin kutusu Parameters</b><br /><br /><b>parse_bbc</b> Kullanıcılarınızın kullanması için <ins><a href="http://wiki.simplemachines.org/smf/Basic_Bulletin_Board_Codes" target="_blank">BBCodes</a></ins> Onların girişinde parse_bbc Ekstra Tip Parametreleri alanına girmelisiniz, aksi takdirde BBC forum mesajında düzgün görüntülenmez.<br /><br /><b>size=(int)</b> Bu, bir kullanıcının girişinde yazabilecek karakter sayısını sınırlar.<br /><br />Example: Alana size = 8 girerseniz, kullanıcılar girişi 8 karakterle sınırlı olacaktır. Kullanıcı alana 1234567890 yazarsa forum yazısında yalnızca 12345678 görüntülenir.<br /><br /><b>default=(str)</b> Bu, kullanıcı girişi doldurmazsa forum yazısında görünecek varsayılan metni ayarlamanızı sağlar.<br /><br />Example:  &quot;default=Kullanıcı bu alana herhangi bir veri girmedi&quot;, Ekstra Tip Parametreleri alanına girerseniz ve kullanıcı formun doldurulması sırasında dosyaya herhangi bir girdi girmezse &quot;Kullanıcı bu alana herhangi bir veri girmedi.&quot;Forum başlığında otomatik olarak görüntülenecektir..<br /><br /><b>required</b> Ayrıca girebilirsiniz &quot;required&quot; Formun gönderilmesinden önce kullanıcıya bu alan için geçerli verileri girmeye zorlayacak Ekstra Tür Parametreleri alanına.<br /><br />Alanlar bir * ile formda, teslimat düğmesiyle bir * Not Gerekli Alanlar olarak belirir. Kullanıcı bu alanlara veri girmekte başarısız olursa, form,<b><span style="color:red">*</span></b>\'s içinde görüntülenen <b><span style="color:red">red</span></b>, Formun gönderilebilmesi için kullanıcılara bu alanların doldurulması gerektiğini hatırlatmak.<br /><br /><b>Seçim Kutusu ve Radio kutusu</b><br /><br />Bir Seçme Kutusu veya Radio Kutusu, bir dizi seçenek koymanıza olanak tanır (virgüllerle ayrılmış \' ), Kullanıcının seçmesi için.<br /><br />Example: Item 1, Item 2, Item 3, Item 4, and so on.<br /><br />Bir kullanıcının Seçim Kutusu veya Radio Kutusu girmesini zorunlu kılmak içinr &quot;required&quot; Ilk seçim olarak. Entering &quot;required&quot; Seçenekler dizisinin herhangi bir yerinde, formunuzun düzgün çalışmamasına neden olabilir.<br /><br />Example: required, Item 1, Item 2, Item 3, Item 4 <br /><br /><b>Onay Kutusu</b><br /><br />Varsayılan olarak, Ekstra Tür Parametreleri alanını boş bırakırsanız, kutu formda kontrol edilirse <b> Evet </ b> veya yoksa <b> Hayır </ b> kutusu bir onay kutusu gönderecektir.<br /><br />Alternatif olarak bir onay kutusu, virgülle ayrılmış iki dizeyi koymanıza izin verir; onay kutusu işaretlenirse ilk dizge görüntülenir; onay kutusu işaretlenmezse ikinci dizge gösterilir..<br /><br />Example: Onay kutusu işaretlendi. Onay kutusu işaretlenmedi.<br /><br />Ayrıca kullanabilirsiniz &quot;required&quot; pBir form göndermeden önce kullanıcıyı kutuyu işaretlemeye zorlamak için bir parametre kullanın. Varsayılan olarak, yalnızca &quot;required&quot; Ekstra Tür Parametreleri alanında, onay kutusu forumun postasında yalnızca <b> gerekli </ b>  görüntüleyecektir. Ayrıca forumun postasında sizin seçtiğiniz şeyleri gösterebilirsiniz.<br /><br />Example: Bu kutuyu işaretlemek gerekiyordu., Gerekli';
 //	**End Custom Form Mod Help Text**
 ]]></add>
 		</operation>

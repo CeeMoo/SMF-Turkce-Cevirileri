@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>snrj:breeze</id>
+	<name>Breeze-turkish</name>
+	<version>1.0.10</version>
+	<type>modification</type>
+	<install for="2.0 - 2.0.99">
+		<readme type="file" parsebbc="true">readme.txt</readme>
+		<require-dir name="Themes" destination="$boarddir">Theme files</require-dir>
+		<redirect url="$scripturl?action=admin;area=breezeadmin;sa=general" timeout="3000">redirect.txt</redirect>
+	</install>
+
+	<uninstall for="2.0 - 2.0.99">
+		<remove-file name="$languagedir/Breeze.turkish.php" />
+		<remove-file name="$languagedir/Breeze.turkish-utf8.php" />
+		<remove-file name="$languagedir/BreezeAdmin.turkish.php" />
+		<remove-file name="$languagedir/BreezeAdmin.turkish-utf8.php" />
+	</uninstall>
+</package-info>
