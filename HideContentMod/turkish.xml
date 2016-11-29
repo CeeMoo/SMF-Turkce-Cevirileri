@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Konusal:HideContentMod-turkish</id>
+	<version>1.0</version>
+	<file name="$themedir/languages/Modifications.turkish.php" error="skip">
+		<operation>
+			<search position="end" />
+			<add><![CDATA[
+/**
+ *  @türkçe çeviri BySaBo ve snrj 
+ *  @http://smf.konusal.com/
+ */
+// Hide Content Mod
+$txt['hidecontent_required_conditions'] = 'Bu mesajın içeriğini görüntüleyebilecekler: ';
+$txt['hidecontent_passed_required_conditions'] = 'Gizli İçerik:';
+$txt['hidecontent_hide'] = 'Mesajlarda İçerik Gizleme';
+$txt['hidepost_title'] = 'Ileti Sayısına Göre';
+$txt['hidepost_text'] = 'Bu mesajı gönrüntüleyebilmek için ileti sayınız {posts_needed}, diğer ihtiyacınız {posts_left} ileti.';
+$txt['hidepost_desc'] = 'İleti sayısına göre içerik gizleme.';
+$txt['hidepost_input_title'] = 'Asgari mesaj sayınız';
+$txt['hidelogin_title'] = 'Üye girişine Göre';
+$txt['hidelogin_only_for_guest_text'] = 'Bu içeriği görmek için çıkış yapmanız gerekiyor, lütfen <a href="{logout_link}">Çıkış yapın</a>.';
+$txt['hidelogin_only_for_registered_text'] = 'Bu içeriği görüntülemek için giriş yapmanız gerekiyor, lütfen <a href="{login_link}">Giriş yapın</a> veya <a href="{register_link}">Kayıt olun</a>.';
+$txt['hidelogin_desc'] = 'Oturum açma durumuna göre içetik gizleme.';
+$txt['hidegroup_title'] = 'Üyelik Grubuna Göre';
+$txt['hidegroup_text'] = 'Gruplardan birinin üyesi olmanız gerekiyor: {groups_needed}.';
+$txt['hidegroup_desc'] = 'Gruba dayalı içerik gizleme.';
+$txt['hidegroup_input_title'] = 'Group';
+$txt['hidekarma_title'] = 'Karma Puanına Göre';
+$txt['hidekarma_text'] = 'Sahip olmanız gereken en az karma {karma_needed}.';
+$txt['hidekarma_desc'] = 'Karmaya dayalı içerik gizleme.';
+$txt['hidekarma_input_title'] = 'Minimum karma';
+$txt['hidecontent_enable_plugin_settings_desc'] = 'Eklentiyi şunun için etkinleştir: ';
+$txt['hidecontent_settings'] = "Gizli İçerik";
+$txt['hidecontent_error_1'] = "%field yalnızca sayısal olmalı";
+$txt['hidecontent_error_2'] = "%field gereklidir";
+$txt['hidecontent_error_3'] = "En az bir seçenek gereklidir";
+$txt['hidecontent_apply'] = "Uygula";
+$txt['hidecontent_modal_description'] = "İçerik Gizleme Ayarları";
+$txt['hidecontent_modal_close'] = "Kapat <b>X</b>";
+$txt['hidecontent_admin_default_value'] = 'Varsayılan Değer';
+$txt['hidecontent_admin_no_value'] = 'Eğer bir değer girilmezse veya 0 girilirse eklenti varsayılan değeri kullanır';
+$txt['hidecontent_settings_checkbox_default'] = 'Varsayılan Olarak İşaretle ';
+$txt['hidecontent_quote_hidden'] = 'Bu içerik gizli ve alıntı yapılamaz.';
+$txt['hidecontent_disable_on_pm'] = 'PM için pasif et';
+$txt['hidecontent_disable_on_boards'] = 'Seçeceğim bölümler için pasif et';
+$txt['hidecontent_checked_by_default'] = 'Varsayılan Olarak İşaretle';
+$txt['permissionname_hide_content'] = 'Gizli İçerik';
+$txt['permissionhelp_hide_content'] = 'Bu, çerik gizleme eklentisini kullanmak için kullanıcıya izin veir.';
+$txt['permissionname_pm_hide_content'] = 'Gizli içerik';
+$txt['permissionhelp_pm_hide_content'] = 'Bu, çerik gizleme eklentisini kullanmak için kullanıcıya izin veir.';
+$txt['hidecontent_uninstall_permssions_and_settings'] = 'Ayarlar ve İzinler';
+// Hide Content Mod
+]]></add>
+		</operation>
+	</file>
+
+	<file name="$themedir/languages/Modifications.turkish-utf8.php" error="skip">
+		<operation error="skip">
+			<search position="end" />
+			<add><![CDATA[
+/**
+ *  @türkçe çeviri BySaBo ve snrj 
+ *  @http://smf.konusal.com/
+ */
+// Hide Content Mod
+$txt['hidecontent_required_conditions'] = 'Bu mesajın içeriğini görüntüleyebilecekler: ';
+$txt['hidecontent_passed_required_conditions'] = 'Gizli İçerik:';
+$txt['hidecontent_hide'] = 'Mesajlarda İçerik Gizleme';
+$txt['hidepost_title'] = 'Ileti Sayısına Göre';
+$txt['hidepost_text'] = 'Bu mesajı gönrüntüleyebilmek için ileti sayınız {posts_needed}, diğer ihtiyacınız {posts_left} ileti.';
+$txt['hidepost_desc'] = 'İleti sayısına göre içerik gizleme.';
+$txt['hidepost_input_title'] = 'Asgari mesaj sayınız';
+$txt['hidelogin_title'] = 'Üye girişine Göre';
+$txt['hidelogin_only_for_guest_text'] = 'Bu içeriği görmek için çıkış yapmanız gerekiyor, lütfen <a href="{logout_link}">Çıkış yapın</a>.';
+$txt['hidelogin_only_for_registered_text'] = 'Bu içeriği görüntülemek için giriş yapmanız gerekiyor, lütfen <a href="{login_link}">Giriş yapın</a> veya <a href="{register_link}">Kayıt olun</a>.';
+$txt['hidelogin_desc'] = 'Oturum açma durumuna göre içetik gizleme.';
+$txt['hidegroup_title'] = 'Üyelik Grubuna Göre';
+$txt['hidegroup_text'] = 'Gruplardan birinin üyesi olmanız gerekiyor: {groups_needed}.';
+$txt['hidegroup_desc'] = 'Gruba dayalı içerik gizleme.';
+$txt['hidegroup_input_title'] = 'Group';
+$txt['hidekarma_title'] = 'Karma Puanına Göre';
+$txt['hidekarma_text'] = 'Sahip olmanız gereken en az karma {karma_needed}.';
+$txt['hidekarma_desc'] = 'Karmaya dayalı içerik gizleme.';
+$txt['hidekarma_input_title'] = 'Minimum karma';
+$txt['hidecontent_enable_plugin_settings_desc'] = 'Eklentiyi şunun için etkinleştir: ';
+$txt['hidecontent_settings'] = "Gizli İçerik";
+$txt['hidecontent_error_1'] = "%field yalnızca sayısal olmalı";
+$txt['hidecontent_error_2'] = "%field gereklidir";
+$txt['hidecontent_error_3'] = "En az bir seçenek gereklidir";
+$txt['hidecontent_apply'] = "Uygula";
+$txt['hidecontent_modal_description'] = "İçerik Gizleme Ayarları";
+$txt['hidecontent_modal_close'] = "Kapat <b>X</b>";
+$txt['hidecontent_admin_default_value'] = 'Varsayılan Değer';
+$txt['hidecontent_admin_no_value'] = 'Eğer bir değer girilmezse veya 0 girilirse eklenti varsayılan değeri kullanır';
+$txt['hidecontent_settings_checkbox_default'] = 'Varsayılan Olarak İşaretle ';
+$txt['hidecontent_quote_hidden'] = 'Bu içerik gizli ve alıntı yapılamaz.';
+$txt['hidecontent_disable_on_pm'] = 'PM için pasif et';
+$txt['hidecontent_disable_on_boards'] = 'Seçeceğim bölümler için pasif et';
+$txt['hidecontent_checked_by_default'] = 'Varsayılan Olarak İşaretle';
+$txt['permissionname_hide_content'] = 'Gizli İçerik';
+$txt['permissionhelp_hide_content'] = 'Bu, çerik gizleme eklentisini kullanmak için kullanıcıya izin veir.';
+$txt['permissionname_pm_hide_content'] = 'Gizli içerik';
+$txt['permissionhelp_pm_hide_content'] = 'Bu, çerik gizleme eklentisini kullanmak için kullanıcıya izin veir.';
+$txt['hidecontent_uninstall_permssions_and_settings'] = 'Ayarlar ve İzinler';
+// Hide Content Mod
+]]></add>
+		</operation>
+	</file>
+	
+</modification>
